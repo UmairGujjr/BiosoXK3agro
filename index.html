@@ -1,0 +1,1242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mega Farmer BIOSO™ × K3 Agro Solutions — Joint Venture Proposal</title>
+<meta name="description" content="Joint venture proposal: Mega Farmer BIOSO™ and K3 Agro Solutions — a 50/50 BIOSO business line with three income streams: biological fertilisers, clean and organic produce, and microbial cultures.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#07110c">
+<meta name="author" content="Mega Farmer · Xelora Industries PVT LTD">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#07110c; --bg2:#0a1811; --card:#0e2017; --card2:#122a1e;
+  --line:rgba(150,255,130,.13); --line2:rgba(150,255,130,.25);
+  --neon:#8CFF5A; --leaf:#3DDC84; --soil:#C9A15B; --soil2:#8a6a35;
+  --cream:#EEF4E6; --muted:#9DB3A2; --dim:#6f8a77; --warn:#ff8a5c;
+  --r:18px; --maxw:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{background:var(--bg);color:var(--cream);font-family:Inter,system-ui,sans-serif;line-height:1.65;font-size:17px;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:var(--neon);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;line-height:1.12;letter-spacing:-.01em}
+h2{font-size:clamp(30px,4.4vw,52px);margin-bottom:22px}
+h3{font-size:22px;margin-bottom:10px}
+p{color:#d6e2d4;margin-bottom:16px;max-width:76ch}
+.eyebrow{font-family:"JetBrains Mono",monospace;font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--neon);display:inline-flex;align-items:center;gap:10px;margin-bottom:18px}
+.eyebrow::before{content:"";width:26px;height:1px;background:var(--neon)}
+.lead{font-size:clamp(18px,1.6vw,21px);color:#e3ecdf}
+.hl{color:var(--neon)}
+.soil{color:var(--soil)}
+section{position:relative;padding:120px 0}
+section.alt{background:linear-gradient(180deg,var(--bg2),var(--bg))}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:linear-gradient(160deg,var(--card),var(--bg2));border:1px solid var(--line);border-radius:var(--r);padding:28px;position:relative;overflow:hidden;transition:transform .5s cubic-bezier(.2,.8,.2,1),border-color .4s}
+.card:hover{transform:translateY(-4px);border-color:var(--line2)}
+.card p{font-size:15.5px;margin-bottom:0}
+.card .ic{width:46px;height:46px;border-radius:12px;background:rgba(140,255,90,.08);border:1px solid var(--line2);display:grid;place-items:center;margin-bottom:16px}
+.pill{display:inline-block;padding:6px 14px;border-radius:99px;border:1px solid var(--line2);font-size:13px;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:99px;background:var(--neon);color:#06110a;font-weight:700;font-size:15px;border:0;cursor:pointer;transition:transform .3s,box-shadow .3s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 40px rgba(140,255,90,.35);text-decoration:none}
+.btn.ghost{background:transparent;color:var(--cream);border:1px solid var(--line2)}
+/* reveal */
+.rv{opacity:0;transform:translateY(34px);transition:opacity 1s cubic-bezier(.2,.8,.2,1),transform 1s cubic-bezier(.2,.8,.2,1)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.1s}.rv.d2{transition-delay:.2s}.rv.d3{transition-delay:.3s}.rv.d4{transition-delay:.4s}
+/* preloader */
+#loader{position:fixed;inset:0;background:var(--bg);z-index:999;display:grid;place-items:center;transition:opacity .8s,visibility .8s}
+#loader.done{opacity:0;visibility:hidden}
+#loader .sprout{width:90px;height:110px}
+#loader .sprout path{stroke:var(--neon);stroke-width:3;fill:none;stroke-linecap:round;stroke-dasharray:200;stroke-dashoffset:200;animation:grow 1.6s ease forwards}
+#loader .sprout path.l2{animation-delay:.5s}#loader .sprout path.l3{animation-delay:.8s}
+#loader small{display:block;text-align:center;margin-top:14px;font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.2em;color:var(--muted)}
+@keyframes grow{to{stroke-dashoffset:0}}
+/* nav */
+#bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--leaf),var(--neon));width:0;z-index:60;box-shadow:0 0 12px var(--neon)}
+nav.top{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .4s,backdrop-filter .4s,border-color .4s;border-bottom:1px solid transparent}
+nav.top.solid{background:rgba(7,17,12,.78);backdrop-filter:blur(14px);border-color:var(--line)}
+nav.top .wrap{display:flex;align-items:center;justify-content:space-between;height:70px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--cream);font-weight:700;letter-spacing:.02em}
+.brand img{height:38px;width:auto}
+.brand .wm{font-family:Fraunces,serif;font-size:19px}
+.brand .wm b{color:var(--neon)}
+nav.top .links{display:flex;gap:24px;font-size:14px}
+nav.top .links a{color:var(--muted)}
+nav.top .links a:hover{color:var(--cream);text-decoration:none}
+#dots{position:fixed;right:22px;top:50%;transform:translateY(-50%);z-index:40;display:flex;flex-direction:column;gap:12px}
+#dots a{width:9px;height:9px;border-radius:50%;border:1px solid var(--line2);display:block;transition:all .3s;position:relative}
+#dots a.on{background:var(--neon);box-shadow:0 0 10px var(--neon);transform:scale(1.25)}
+#dots a span{position:absolute;right:20px;top:50%;transform:translateY(-50%);white-space:nowrap;font-size:12px;color:var(--muted);opacity:0;pointer-events:none;transition:opacity .25s}
+#dots a:hover span{opacity:1}
+/* hero */
+#hero{min-height:100vh;display:flex;align-items:center;padding:130px 0 90px;overflow:hidden}
+#hero canvas{position:absolute;inset:0;width:100%;height:100%}
+#hero .glow{position:absolute;width:900px;height:900px;border-radius:50%;background:radial-gradient(circle,rgba(61,220,132,.16),transparent 62%);top:-260px;right:-260px;pointer-events:none;animation:breath 9s ease-in-out infinite}
+@keyframes breath{50%{transform:scale(1.12);opacity:.7}}
+#hero .wrap{position:relative;z-index:2}
+.partners{display:flex;align-items:center;gap:18px;margin-bottom:34px;flex-wrap:wrap}
+.partners .x{width:38px;height:38px;border-radius:50%;border:1px solid var(--line2);display:grid;place-items:center;color:var(--neon);font-size:18px;animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.partners .k3{font-family:Fraunces,serif;font-size:20px;padding:8px 16px;border:1px solid var(--soil);color:var(--soil);border-radius:10px}
+#hero h1{font-size:clamp(40px,6.6vw,86px);max-width:15ch;margin-bottom:26px}
+#hero h1 .grad{background:linear-gradient(90deg,var(--neon),var(--leaf) 50%,var(--soil));-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% auto;animation:shine 6s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+.terms{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:46px;max-width:900px}
+.term{padding:18px 20px;border:1px solid var(--line);border-radius:14px;background:rgba(14,32,23,.6);backdrop-filter:blur(6px)}
+.term b{display:block;font-family:Fraunces,serif;font-size:30px;color:var(--neon);line-height:1.1}
+.term span{font-size:13px;color:var(--muted)}
+.scrollcue{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);z-index:3;width:24px;height:40px;border:1px solid var(--line2);border-radius:14px}
+.scrollcue::after{content:"";position:absolute;left:50%;top:8px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:var(--neon);animation:cue 1.8s infinite}
+@keyframes cue{60%{transform:translateY(14px);opacity:0}100%{opacity:0}}
+/* stats */
+.stat{padding:26px;border-left:2px solid var(--neon);background:linear-gradient(90deg,rgba(140,255,90,.06),transparent)}
+.stat b{font-family:Fraunces,serif;font-size:clamp(32px,3.6vw,46px);display:block;line-height:1.05;color:var(--cream)}
+.stat span{font-size:14px;color:var(--muted)}
+/* soil slider */
+.soilbox{position:relative;height:420px;border-radius:var(--r);overflow:hidden;border:1px solid var(--line2);user-select:none;touch-action:none}
+.soilbox svg{position:absolute;inset:0;width:100%;height:100%}
+.soilbox .live{clip-path:inset(0 0 0 50%)}
+.soilbox .handle{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--neon);box-shadow:0 0 18px var(--neon);cursor:ew-resize}
+.soilbox .handle::after{content:"⇆";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;background:var(--neon);color:#06110a;display:grid;place-items:center;font-weight:700}
+.soilbox .tag{position:absolute;top:16px;font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.14em;padding:6px 12px;border-radius:99px;background:rgba(0,0,0,.45)}
+.soilbox .tag.l{left:16px;color:#c6b49a}.soilbox .tag.r{right:16px;color:var(--neon)}
+.microbe{animation:float 5s ease-in-out infinite}
+@keyframes float{50%{transform:translate(4px,-7px)}}
+.root{stroke-dasharray:600;stroke-dashoffset:600}
+.soilbox.on .root{animation:grow 3.5s ease forwards}
+/* products */
+.stages{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0 30px}
+.stages button{background:transparent;border:1px solid var(--line2);color:var(--muted);padding:9px 18px;border-radius:99px;font:600 14px Inter;cursor:pointer;transition:all .3s}
+.stages button.on,.stages button:hover{background:var(--neon);color:#06110a;border-color:var(--neon)}
+.prods{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.prod{padding:22px;border-radius:16px;border:1px solid var(--line);background:var(--card);transition:all .45s cubic-bezier(.2,.8,.2,1);position:relative;overflow:hidden}
+.prod.dim{opacity:.18;transform:scale(.97)}
+.prod .n{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--neon)}
+.prod h4{font-family:Fraunces,serif;font-size:20px;margin:6px 0 6px;font-weight:600}
+.prod p{font-size:14.5px;margin:0;color:var(--muted)}
+.prod .st{position:absolute;top:18px;right:18px;font-size:11px;color:var(--soil);letter-spacing:.08em;text-transform:uppercase}
+.prod::after{content:"";position:absolute;inset:auto -40% -60% auto;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(140,255,90,.18),transparent 65%);opacity:0;transition:opacity .4s}
+.prod:hover::after{opacity:1}
+/* method chips */
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.chips span{padding:8px 15px;border-radius:99px;background:rgba(140,255,90,.07);border:1px solid var(--line);font-size:14px}
+/* economics */
+.season{display:grid;grid-template-columns:150px 1fr 70px;align-items:center;gap:16px;margin:16px 0}
+.season .lbl{font-size:14px;color:var(--muted)}
+.track{height:34px;border-radius:10px;background:rgba(255,255,255,.04);overflow:hidden;display:flex}
+.track .syn{background:linear-gradient(90deg,#7b6a55,#a78d6a);width:0;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+.track .bio{background:linear-gradient(90deg,var(--leaf),var(--neon));width:0;transition:width 1.6s cubic-bezier(.2,.8,.2,1) .3s}
+.season b{font-family:Fraunces,serif;font-size:20px}
+.legend{display:flex;gap:22px;font-size:13px;color:var(--muted);margin-top:10px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:7px;vertical-align:-1px}
+/* contributions */
+.contrib{display:grid;grid-template-columns:1fr 90px 1fr;gap:20px;align-items:stretch}
+.contrib .side{padding:30px;border-radius:var(--r);border:1px solid var(--line)}
+.contrib .side.mf{background:linear-gradient(160deg,rgba(61,220,132,.12),transparent)}
+.contrib .side.k3{background:linear-gradient(200deg,rgba(201,161,91,.14),transparent);border-color:rgba(201,161,91,.3)}
+.contrib ul{list-style:none;margin-top:14px}
+.contrib li{padding:10px 0;border-bottom:1px dashed var(--line);font-size:15px;color:#d6e2d4}
+.contrib li:last-child{border:0}
+.contrib .mid{display:grid;place-items:center}
+.contrib .mid svg{width:90px;height:220px}
+.flow{stroke-dasharray:6 8;animation:dash 1.2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-28}}
+/* loop */
+.loopwrap{position:relative;width:min(560px,100%);aspect-ratio:1;margin:0 auto}
+.loopwrap svg{width:100%;height:100%}
+.loopnode{cursor:pointer}
+.loopnode circle{transition:all .3s}
+.loopnode.on circle{fill:var(--neon)}
+.loopnode.on text{fill:#06110a}
+#loopInfo{min-height:150px}
+#loopInfo h3{color:var(--neon)}
+/* plant */
+.tanks{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin:30px 0}
+.tank{position:relative;height:150px;border:2px solid var(--line2);border-radius:14px 14px 30px 30px;overflow:hidden;background:rgba(255,255,255,.02)}
+.tank .liq{position:absolute;left:0;right:0;bottom:0;height:0;transition:height 2.2s cubic-bezier(.2,.8,.2,1);background:linear-gradient(0deg,rgba(61,220,132,.75),rgba(140,255,90,.35))}
+.tank.blend .liq{background:linear-gradient(0deg,rgba(201,161,91,.8),rgba(201,161,91,.3))}
+.tank.hold .liq{background:linear-gradient(0deg,rgba(150,190,255,.6),rgba(150,190,255,.25))}
+.tank .bub{position:absolute;bottom:6px;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.55);animation:bub 3s infinite ease-in;opacity:0}
+@keyframes bub{0%{transform:translateY(0);opacity:0}15%{opacity:.8}100%{transform:translateY(-120px);opacity:0}}
+.tank label{position:absolute;top:8px;left:0;right:0;text-align:center;font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted);z-index:2}
+.costband{margin-top:34px;padding:30px;border-radius:var(--r);border:1px solid var(--neon);background:linear-gradient(120deg,rgba(140,255,90,.1),transparent);display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.costband b{font-family:Fraunces,serif;font-size:clamp(30px,4vw,48px);color:var(--neon)}
+/* donut */
+.donutwrap{display:grid;grid-template-columns:320px 1fr;gap:40px;align-items:center}
+.donut{width:320px;height:320px}
+.donut circle.seg{fill:none;stroke-width:34;transition:stroke-dasharray 1.6s cubic-bezier(.2,.8,.2,1),opacity .3s;cursor:pointer}
+.donut text{font-family:Fraunces,serif}
+.funds{list-style:none}
+.funds li{display:grid;grid-template-columns:16px 1fr auto;gap:14px;align-items:center;padding:13px 0;border-bottom:1px solid var(--line);font-size:15.5px;cursor:default;transition:background .3s}
+.funds li:hover{background:rgba(140,255,90,.05)}
+.funds i{width:14px;height:14px;border-radius:4px}
+.funds b{font-family:Fraunces,serif;font-size:19px}
+/* team */
+.team{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}
+.team .card b{font-family:Fraunces,serif;font-size:28px;color:var(--neon);display:block;margin-top:12px}
+/* charts */
+.chart{width:100%;height:auto;overflow:visible}
+.chart text{font-family:Inter;fill:var(--muted);font-size:13px}
+.chart .val{fill:var(--cream);font-weight:700;font-family:Fraunces;font-size:16px}
+.bar{transition:height 1.4s cubic-bezier(.2,.8,.2,1),y 1.4s cubic-bezier(.2,.8,.2,1)}
+/* share sim */
+.sim{padding:34px;border-radius:var(--r);border:1px solid var(--line2);background:var(--card)}
+.sim input[type=range]{width:100%;accent-color:var(--neon);margin:18px 0 8px;height:28px}
+.split{display:flex;height:56px;border-radius:12px;overflow:hidden;margin:18px 0 12px}
+.split div{display:grid;place-items:center;font-weight:700;font-size:15px;transition:flex-basis .4s}
+.split .k{background:linear-gradient(90deg,var(--soil2),var(--soil));color:#1a1206}
+.split .m{background:linear-gradient(90deg,var(--leaf),var(--neon));color:#06110a}
+.simrow{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:15px;color:var(--muted)}
+.simrow b{color:var(--cream);font-family:Fraunces,serif;font-size:22px}
+.phase{display:inline-block;margin-top:10px;padding:6px 14px;border-radius:99px;font-size:13px;font-weight:600}
+/* table */
+table.t{width:100%;border-collapse:collapse;font-size:15px;margin-top:20px}
+table.t th{text-align:left;font-weight:600;color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.08em;padding:12px 10px;border-bottom:1px solid var(--line2)}
+table.t td{padding:13px 10px;border-bottom:1px solid var(--line)}
+table.t td.n{text-align:right;font-variant-numeric:tabular-nums}
+table.t th.n{text-align:right}
+/* gcc */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}
+.tabs button{background:transparent;border:1px solid var(--line2);color:var(--muted);padding:10px 18px;border-radius:99px;font:600 14px Inter;cursor:pointer;transition:all .3s}
+.tabs button.on{background:var(--soil);color:#1a1206;border-color:var(--soil)}
+.funders{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.funder{padding:20px;border-radius:14px;border:1px solid var(--line);background:var(--card);animation:pop .5s cubic-bezier(.2,.8,.2,1) both}
+@keyframes pop{from{opacity:0;transform:translateY(14px) scale(.98)}}
+.funder .c{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--soil)}
+.funder h4{font-family:Fraunces,serif;font-size:18px;margin:6px 0;font-weight:600}
+.funder p{font-size:14px;color:var(--muted);margin-bottom:10px}
+.funder a{font-size:13.5px;font-weight:600}
+/* timeline */
+.tl{position:relative;margin-top:40px}
+.tl::before{content:"";position:absolute;left:19px;top:0;bottom:0;width:2px;background:var(--line2)}
+.tl .fill{position:absolute;left:19px;top:0;width:2px;height:0;background:linear-gradient(180deg,var(--neon),var(--leaf));box-shadow:0 0 12px var(--neon);transition:height .2s linear}
+.tl .step{position:relative;padding-left:66px;margin-bottom:38px}
+.tl .step::before{content:"";position:absolute;left:10px;top:4px;width:20px;height:20px;border-radius:50%;background:var(--bg);border:2px solid var(--neon);box-shadow:0 0 0 6px rgba(140,255,90,.08)}
+.tl .when{font-family:"JetBrains Mono",monospace;font-size:12.5px;color:var(--neon);letter-spacing:.1em}
+.tl h3{margin:4px 0 8px}
+/* accordion */
+details{border:1px solid var(--line);border-radius:14px;margin-bottom:10px;background:var(--card);transition:border-color .3s}
+details[open]{border-color:var(--line2)}
+summary{cursor:pointer;padding:18px 22px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";color:var(--neon);font-size:22px;line-height:1;transition:transform .3s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 22px 18px;margin:0;font-size:15.5px}
+/* cta */
+#contact{text-align:center;padding:140px 0}
+#contact h2{max-width:20ch;margin:0 auto 22px}
+#contact p{margin:0 auto 34px}
+.ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+footer{border-top:1px solid var(--line);padding:34px 0;font-size:13px;color:var(--dim);text-align:center}
+.note{font-size:13px;color:var(--dim);margin-top:14px}
+/* responsive */
+@media(max-width:960px){
+  .grid2,.donutwrap{grid-template-columns:1fr}
+  .grid3,.team{grid-template-columns:1fr 1fr}
+  .grid4,.terms{grid-template-columns:1fr 1fr}
+  .contrib{grid-template-columns:1fr}
+  .contrib .mid{display:none}
+  nav.top .links{display:none}
+  #dots{display:none}
+  .tanks{grid-template-columns:repeat(5,1fr);gap:8px}
+  .donut{margin:0 auto}
+}
+@media(max-width:600px){
+  body{font-size:16px}
+  .wrap{padding:0 16px}
+  section{padding:84px 0}
+  .grid3,.team,.grid4{grid-template-columns:1fr}
+  .terms{grid-template-columns:1fr 1fr}
+  .season{grid-template-columns:96px 1fr 56px;gap:10px}
+  .soilbox{height:320px}
+  .tank{height:96px}.tank label{font-size:9px}
+  .donut{width:260px;height:260px}
+  .brand .wm{font-size:16px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+@media print{
+  #loader,#bar,nav.top,#dots,#hero canvas,.scrollcue{display:none!important}
+  body{background:#fff;color:#111}
+  p,.card p{color:#222}
+  section{padding:40px 0;page-break-inside:avoid}
+  .rv{opacity:1;transform:none}
+  .card,.prod,.funder{background:#fff;border-color:#ccc}
+}
+</style>
+<style>
+.streams3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px}
+.stream{position:relative;padding:34px 30px;border-radius:22px;border:1px solid var(--line2);background:linear-gradient(165deg,var(--card2),var(--bg2));overflow:hidden;transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.stream:hover{transform:translateY(-6px)}
+.stream .num{font-family:Fraunces,serif;font-size:76px;line-height:1;color:transparent;-webkit-text-stroke:1px var(--neon);opacity:.55;position:absolute;right:22px;top:14px}
+.stream h3{font-size:25px;margin:16px 0 12px;max-width:14ch}
+.stream p{font-size:15.5px;margin-bottom:14px}
+.stream a{font-weight:600;font-size:14px}
+.stream::before{content:"";position:absolute;inset:auto -80px -80px auto;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(140,255,90,.16),transparent 65%);animation:breath 7s ease-in-out infinite}
+.stream.s2::before{background:radial-gradient(circle,rgba(201,161,91,.2),transparent 65%)}
+.stream.s3::before{background:radial-gradient(circle,rgba(150,190,255,.18),transparent 65%)}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0}
+.fact{padding:22px;border-radius:14px;border:1px solid var(--line);background:rgba(14,32,23,.7)}
+.fact b{font-family:Fraunces,serif;font-size:30px;color:var(--soil);display:block;line-height:1.1}
+.fact span{font-size:14px;color:var(--muted)}
+.fact a{font-size:12px;color:var(--dim)}
+.quote{border-left:3px solid var(--soil);padding:6px 0 6px 22px;margin:26px 0;font-family:Fraunces,serif;font-size:21px;color:#e9dfc8;max-width:62ch}
+.phases{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+.phases .card .when{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--neon);letter-spacing:.1em}
+.ind{width:100%;border-collapse:collapse;margin-top:24px;font-size:14.5px}
+.ind th{text-align:left;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em;padding:12px 10px;border-bottom:1px solid var(--line2)}
+.ind td{padding:14px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.ind td:first-child{font-weight:600;color:var(--cream);white-space:nowrap}
+.ind td i{color:#cfe8c4}
+.ind tr{transition:background .3s}.ind tr:hover{background:rgba(140,255,90,.04)}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.petri{width:100%;max-width:420px;aspect-ratio:1;margin:0 auto;display:block}
+.colony{transform-origin:center;transform-box:fill-box;animation:colony 4s ease-in-out infinite}
+@keyframes colony{0%{transform:scale(.2);opacity:0}30%{opacity:1}100%{transform:scale(1);opacity:.9}}
+.builder{padding:30px;border-radius:var(--r);border:1px solid var(--line2);background:var(--card)}
+.brow{display:grid;grid-template-columns:1fr 70px;gap:12px;align-items:center;margin:10px 0}
+.brow label{font-size:14px;color:var(--muted)}
+.brow input{grid-column:1/-1;width:100%;accent-color:var(--neon)}
+.brow output{text-align:right;font-family:Fraunces,serif;font-size:18px}
+.stack{display:flex;height:40px;border-radius:10px;overflow:hidden;margin:18px 0 8px}
+.stack div{transition:flex-basis .35s;min-width:2px}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.vs .card b{font-family:Fraunces,serif;font-size:30px;display:block}
+.agree{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}
+.agree .card .tag{font-family:"JetBrains Mono",monospace;font-size:13px;color:var(--neon)}
+.lock{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+.lock .card{border-color:rgba(140,255,90,.3)}
+.lock .card.k{border-color:rgba(201,161,91,.35)}
+.teamgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+.fund{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}
+.fund .card{text-align:left}
+.fund .card .ic{font-size:20px}
+@media(max-width:960px){.streams3,.facts,.phases,.agree,.teamgrid,.fund{grid-template-columns:1fr 1fr}.lock{grid-template-columns:1fr}}
+@media(max-width:600px){.streams3,.facts,.phases,.agree,.teamgrid,.fund,.vs{grid-template-columns:1fr}.ind td:first-child{white-space:normal}}
+</style>
+<style>
+/* ===== v3 visual layer ===== */
+#aurora{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+#aurora i{position:absolute;width:58vw;height:58vw;border-radius:50%;filter:blur(110px);opacity:.16;animation:drift 30s ease-in-out infinite alternate}
+#aurora i:nth-child(1){background:#3DDC84;left:-18vw;top:-12vw}
+#aurora i:nth-child(2){background:#C9A15B;right:-22vw;top:30vh;animation-duration:38s;opacity:.11}
+#aurora i:nth-child(3){background:#1fb5a0;left:20vw;bottom:-30vw;animation-duration:44s;opacity:.10}
+@keyframes drift{0%{transform:translate(0,0) scale(1)}50%{transform:translate(8vw,6vh) scale(1.15)}100%{transform:translate(-6vw,-4vh) scale(.95)}}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:70;opacity:.07;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+section.alt{background:linear-gradient(180deg,rgba(10,24,17,.72),rgba(7,17,12,.35))}
+section:not(#hero)::after{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(140,255,90,.7),rgba(201,161,91,.6),transparent);background-size:220% 100%;animation:sweep 7s linear infinite;opacity:.35}
+@keyframes sweep{to{background-position:-220% 0}}
+.card,.fact,.funder,.sim,.builder,.term,details,.meters,.glass,.stream,.prod{background:radial-gradient(420px circle at var(--mx,-300px) var(--my,-300px),rgba(140,255,90,.10),transparent 45%),linear-gradient(155deg,rgba(255,255,255,.06),rgba(255,255,255,.012) 42%,rgba(9,24,16,.55));backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);border:1px solid rgba(190,255,170,.11);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 24px 60px -34px rgba(0,0,0,.85)}
+.card:hover,.fact:hover,.funder:hover,.prod:hover{border-color:rgba(140,255,90,.38)}
+.stream,.lock .card,.agree .card,.teamgrid .card{transform-style:preserve-3d;will-change:transform}
+.glass{border-radius:var(--r);position:relative;overflow:hidden}
+.hudc{position:relative}
+.hudc::before,.hudc::after{content:"";position:absolute;width:18px;height:18px;border:1.5px solid var(--neon);opacity:.7;pointer-events:none}
+.hudc::before{left:10px;top:10px;border-right:0;border-bottom:0}
+.hudc::after{right:10px;bottom:10px;border-left:0;border-top:0}
+.hudlabel{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.18em;color:var(--neon);opacity:.8}
+/* hero scope */
+.scope{position:absolute;right:4%;top:50%;transform:translateY(-50%);width:min(390px,27vw);z-index:2;pointer-events:none}
+.scope svg{width:100%;height:auto;overflow:visible}
+#hero .terms{max-width:760px}
+#hero .lead{max-width:64ch}
+.rmgrid{display:grid;grid-template-columns:1.25fr 1fr;gap:50px;align-items:start}
+.rmviz{position:sticky;top:120px;padding:22px;margin-top:40px}
+.rmviz svg{width:100%;height:auto;display:block}
+.grow{stroke-dasharray:420;stroke-dashoffset:420;animation:growl 6s ease-in-out infinite}
+@keyframes growl{0%{stroke-dashoffset:420}45%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:0;opacity:0}}
+.leafp{transform-box:fill-box;transform-origin:center;animation:leafp 6s ease-in-out infinite}
+@keyframes leafp{0%,40%{transform:scale(0);opacity:0}55%,90%{transform:scale(1);opacity:1}100%{opacity:0}}
+@media(max-width:960px){.rmgrid{grid-template-columns:1fr}.rmviz{position:relative;top:0}}
+.ring5{transform-origin:150px 150px;animation:spin 26s linear infinite}
+.sharecard{margin-top:26px;padding:22px;display:grid;grid-template-columns:170px 1fr;gap:20px;align-items:center}
+.sharecard svg{width:170px;height:170px}
+@media(max-width:600px){.sharecard{grid-template-columns:1fr;justify-items:center;text-align:center}}
+.soilchips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.soilchips span{font-size:13px;padding:6px 12px;border-radius:99px;border:1px solid rgba(201,161,91,.4);color:#e9dfc8;background:rgba(201,161,91,.07);animation:chipglow 4s ease-in-out infinite}.soilchips span:nth-child(2){animation-delay:.8s}.soilchips span:nth-child(3){animation-delay:1.6s}.soilchips span:nth-child(4){animation-delay:2.4s}.soilchips span:nth-child(5){animation-delay:3.2s}
+@keyframes chipglow{50%{border-color:var(--neon);color:var(--neon);box-shadow:0 0 18px rgba(140,255,90,.25)}}
+.spin{transform-origin:230px 230px;animation:spin 40s linear infinite}
+.spinr{transform-origin:230px 230px;animation:spin 60s linear infinite reverse}
+.scan{animation:scan 5s ease-in-out infinite}
+@keyframes scan{0%{transform:translateY(-150px)}50%{transform:translateY(150px)}100%{transform:translateY(-150px)}}
+.sbug{animation:sdrift var(--d,9s) ease-in-out infinite alternate}
+@keyframes sdrift{to{transform:translate(var(--tx),var(--ty)) rotate(var(--r))}}
+@media(max-width:1100px){.scope{display:none}#hero .terms{max-width:900px}}
+/* ticker */
+.ticker{position:relative;z-index:3;overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(10,26,18,.55);backdrop-filter:blur(10px);padding:16px 0;-webkit-mask:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.ticker .tt{display:flex;width:max-content;animation:tick 55s linear infinite;font-family:"JetBrains Mono",monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.ticker span{padding:0 22px;display:inline-flex;align-items:center;gap:22px;white-space:nowrap}
+.ticker span::after{content:"";width:6px;height:6px;border-radius:50%;background:var(--neon);box-shadow:0 0 10px var(--neon)}
+.ticker span.it{font-style:italic;color:#cfe8c4;text-transform:none;letter-spacing:.04em;font-family:Fraunces,serif;font-size:16px}
+@keyframes tick{to{transform:translateX(-50%)}}
+/* orbit */
+.sticky{position:sticky;top:110px}
+.orbitcard{margin-top:30px;padding:22px}
+.orbit{width:100%;height:auto;display:block}
+.orbit .ring1{transform-origin:200px 200px;animation:spin 50s linear infinite}
+.orbit .ring2{transform-origin:200px 200px;animation:spin 34s linear infinite reverse}
+.orbit .pulse{transform-origin:200px 200px;animation:opulse 3s ease-out infinite}
+@keyframes opulse{from{transform:scale(1);opacity:.7}to{transform:scale(1.9);opacity:0}}
+.orbit .node{animation:nodeb 4s ease-in-out infinite}
+@keyframes nodeb{50%{transform:translateY(-5px)}}
+.minis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.minis div{text-align:center;padding:12px 6px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.03)}
+.minis b{display:block;font-family:Fraunces,serif;font-size:22px;color:var(--neon)}
+.minis span{font-size:11.5px;color:var(--muted)}
+/* crop stages */
+.cropstage{margin:30px 0 6px;padding:24px 26px}
+.cropstage svg{width:100%;height:auto;display:block}
+.cstage{animation:cglow 10s ease-in-out infinite;opacity:.35}
+@keyframes cglow{0%,4%{opacity:.35}8%,22%{opacity:1}28%,100%{opacity:.35}}
+.cdot{animation:cmove 10s linear infinite}
+@keyframes cmove{from{transform:translateX(0)}to{transform:translateX(880px)}}
+/* meters */
+.meters{border-radius:16px;padding:22px 24px;margin-top:22px}
+.mhead{display:flex;gap:18px;font-size:12.5px;color:var(--muted);margin-bottom:10px}
+.mhead i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.meter{display:grid;grid-template-columns:150px 1fr;gap:6px 14px;align-items:center;margin:12px 0}
+.meter label{grid-row:span 2;font-size:13.5px;color:#d6e2d4}
+.mbar{height:9px;border-radius:9px;background:rgba(255,255,255,.05);overflow:hidden}
+.mbar i{display:block;height:100%;width:0;border-radius:9px;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+.mbar.syn i{background:linear-gradient(90deg,#6d5c48,#a78d6a)}
+.mbar.bio i{background:linear-gradient(90deg,var(--leaf),var(--neon));box-shadow:0 0 12px rgba(140,255,90,.5)}
+/* profit flow */
+.pflow{display:flex;align-items:stretch;gap:0;margin-top:46px}
+.pnode{flex:1;min-width:0;padding:20px 18px;border-radius:16px;position:relative}
+.pnode .k{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--neon);letter-spacing:.14em}
+.pnode b{display:block;font-family:Fraunces,serif;font-size:20px;margin:6px 0 6px;color:var(--cream)}
+.pnode small{display:block;font-size:13px;color:var(--muted);line-height:1.5}
+.pnode.final{flex:1.7}
+.plink{width:46px;flex:0 0 46px;position:relative;align-self:center;height:2px;background:linear-gradient(90deg,rgba(140,255,90,.15),rgba(140,255,90,.6),rgba(140,255,90,.15));background-size:200% 100%;animation:sweep 2.4s linear infinite}
+.plink::after{content:"";position:absolute;top:-4px;left:0;width:10px;height:10px;border-radius:50%;background:var(--neon);box-shadow:0 0 14px var(--neon);animation:pl 1.8s linear infinite}
+@keyframes pl{from{left:0}to{left:calc(100% - 10px)}}
+.chips2{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+.chips2 em{font-style:normal;font-size:13px;padding:7px 10px;border-radius:10px;border:1px solid var(--line2);color:var(--muted)}
+.chips2 em.g{border-color:var(--neon);color:var(--neon);background:rgba(140,255,90,.07)}
+.duo{display:grid;gap:12px;margin-top:8px}
+.bar7{display:flex;height:30px;border-radius:9px;overflow:hidden;margin-top:6px}
+.bar7 i{font-style:normal;display:grid;place-items:center;font-size:12.5px;font-weight:700}
+.bar7 i:first-child{background:linear-gradient(90deg,var(--soil2),var(--soil));color:#1a1206}
+.bar7 i:last-child{background:linear-gradient(90deg,var(--leaf),var(--neon));color:#06110a}
+@media(max-width:960px){.pflow{flex-direction:column}.plink{width:2px;height:40px;flex:0 0 40px;align-self:center;background:linear-gradient(180deg,rgba(140,255,90,.15),rgba(140,255,90,.6),rgba(140,255,90,.15))}.plink::after{left:-4px;animation:plv 1.8s linear infinite}@keyframes plv{from{top:0}to{top:calc(100% - 10px)}}}
+/* map */
+.mapcard{margin:34px 0 10px;padding:22px}
+.mapcard svg{width:100%;height:auto;display:block}
+.arc{stroke-dasharray:5 9;animation:dash 1.4s linear infinite}
+.mnode{transform-box:fill-box;transform-origin:center;animation:opulse2 2.6s ease-out infinite}
+@keyframes opulse2{from{transform:scale(1);opacity:.8}to{transform:scale(3.4);opacity:0}}
+/* contact roots */
+#contact{overflow:hidden}
+#contact .roots{position:absolute;inset:0;width:100%;height:100%;opacity:.35;pointer-events:none}
+#contact .roots path{fill:none;stroke:url(#rg);stroke-width:1.6;stroke-dasharray:900;stroke-dashoffset:900;animation:rootg 7s ease-in-out infinite alternate}
+@keyframes rootg{to{stroke-dashoffset:0}}
+#contact .wrap{position:relative;z-index:2}
+.btn{position:relative;overflow:hidden}
+.btn::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);transform:skewX(-20deg);animation:shine2 4.5s ease-in-out infinite}
+.btn.ghost::after{background:linear-gradient(100deg,transparent,rgba(140,255,90,.25),transparent)}
+@keyframes shine2{0%,60%{left:-60%}100%{left:130%}}
+h2 .hl,h2 .soil{text-shadow:0 0 34px rgba(140,255,90,.18)}
+@media(max-width:600px){.minis{grid-template-columns:1fr 1fr 1fr}.meter{grid-template-columns:1fr}.meter label{grid-row:auto}}
+@media(prefers-reduced-motion:reduce){#aurora,.ticker .tt{animation:none}}
+</style>
+<style>
+.navlogo{height:54px;width:auto;filter:drop-shadow(0 0 10px rgba(140,255,90,.25))}
+.pill.prep{border-color:rgba(201,161,91,.45);color:#e9dfc8}
+.partners{gap:14px}
+.lockup img{display:block}
+.lockup.mf img{height:110px;width:auto;filter:drop-shadow(0 0 22px rgba(140,255,90,.3))}
+.lockup.k3l img{height:96px;width:96px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px rgba(140,255,90,.5),0 0 34px rgba(140,255,90,.25)}
+.sidelogo{height:58px;width:auto;display:block;margin-bottom:14px}
+.sidelogo.round{width:58px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 1.5px rgba(201,161,91,.6)}
+.vidsec{overflow:hidden}
+.vidsec .bgvid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;opacity:.62;filter:saturate(1.1) contrast(1.05)}
+.vidsec .bgshade{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(7,17,12,.92) 0%,rgba(7,17,12,.55) 35%,rgba(7,17,12,.55) 70%,rgba(7,17,12,.95) 100%),radial-gradient(ellipse at 30% 30%,rgba(7,17,12,.2),rgba(7,17,12,.75))}
+.vidsec .wrap{position:relative;z-index:2}
+.vidtag{position:absolute;right:24px;top:24px;z-index:3;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.16em;color:#e9dfc8;padding:7px 12px;border-radius:99px;background:rgba(0,0,0,.4);border:1px solid rgba(201,161,91,.4);backdrop-filter:blur(8px)}
+.teamlead{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
+.teamlead .card{border-color:rgba(140,255,90,.3);padding:32px}
+.teamlead h3{font-size:28px}
+.contacts{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:56px auto 0;max-width:980px;text-align:left}
+.ccard{padding:30px}
+.ccard.k{border-color:rgba(201,161,91,.35)}
+.ccard h3{font-size:26px;margin:8px 0 2px}
+.ccard .role{color:var(--neon);font-weight:600;font-size:14.5px;margin-bottom:10px}
+.ccard.k .role{color:var(--soil)}
+.ccard p{font-size:14.5px;margin-bottom:6px}
+.clogo{height:64px;width:auto;margin-bottom:14px;display:block}
+.clogo.round{width:64px;border-radius:50%;object-fit:cover}
+.flogos{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:14px}
+.flogos img{height:44px;width:auto;opacity:.9}.flogos img.round{width:40px;height:40px;border-radius:50%;object-fit:cover}
+@media(max-width:960px){.contacts,.teamlead{grid-template-columns:1fr}.vidtag{display:none}}
+@media(max-width:600px){.lockup.mf img{height:72px}.lockup.k3l img{height:64px;width:64px}.navlogo{height:42px}}
+@media(prefers-reduced-motion:reduce){.vidsec .bgvid{display:none}}
+</style>
+</head>
+<body>
+<div id="aurora"><i></i><i></i><i></i></div>
+
+<div id="loader"><div>
+  <svg class="sprout" viewBox="0 0 90 110"><path d="M45 108 V48"/><path class="l2" d="M45 70 C 20 66 10 46 14 30 C 32 34 44 48 45 70"/><path class="l3" d="M45 56 C 64 54 78 38 76 20 C 58 22 46 36 45 56"/></svg>
+  <small>WAKING THE SOIL…</small>
+</div></div>
+<div id="bar"></div>
+
+<nav class="top" id="nav"><div class="wrap">
+  <a class="brand" href="#hero">
+    <img src="assets/megafarmer-logo.webp" alt="Mega Farmer BIOSO — Microbial Organic Nutrients" class="navlogo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">
+    <span class="wm" style="display:none">Mega Farmer · <b>BIOSO™</b></span>
+  </a>
+  <div class="links">
+    <a href="#model">Partnership</a><a href="#streams">3 Streams</a><a href="#economics">Economics</a><a href="#plant">Plant</a><a href="#fund">BIOSO Fund</a><a href="#returns">Returns</a><a href="#gcc">GCC</a><a href="#agreements">Agreements</a>
+  </div>
+  <a class="btn" href="#contact" style="padding:10px 20px;font-size:14px">Contact</a>
+</div></nav>
+
+<div id="dots"></div>
+
+<!-- HERO -->
+<section id="hero" data-name="Home">
+  <canvas id="microbes"></canvas>
+  <div class="glow"></div>
+  <div class="wrap">
+    <div class="partners rv"><span class="pill">Joint venture proposal · BIOSO business line · November 2026</span><span class="pill prep">Prepared for Mr. Muhammad Khan, Chief Operating Officer, K3 Agro Solutions (Pvt.) Limited</span></div>
+    <div class="partners rv d1">
+      <span class="lockup mf"><img src="assets/megafarmer-logo.webp" alt="Mega Farmer BIOSO"></span>
+      <span class="x">×</span>
+      <span class="lockup k3l"><img src="assets/k3-logo.png" alt="K3 Agro Solutions (Pvt.) Limited"></span>
+    </div>
+    <h1 class="rv d2">From dead soil to <span class="grad">living soil</span> — together.</h1>
+    <p class="lead rv d3">An invitation to K3 Agro Solutions to become an equal owner of the BIOSO business line: fourteen microbial fertilisers produced at K3 under Mega Farmer’s technical leadership, a clean-produce buy-back business, and a microbial culture lab that replaces imported inoculants — three income streams from one partnership.</p>
+    <div class="terms rv d4">
+      <div class="term"><b>50 / 50</b><span>Equal ownership of the BIOSO line</span></div>
+      <div class="term"><b>3</b><span>Income streams from one platform</span></div>
+      <div class="term"><b>70%</b><span>Of profits to K3 until its capital is recovered</span></div>
+      <div class="term"><b>Rs 40–50</b><span>Estimated production cost per litre</span></div>
+    </div>
+  </div>
+  <div class="scrollcue"></div>
+</section>
+<div class="ticker" aria-hidden="true"><div class="tt" id="tt"></div></div>
+
+<!-- SUMMARY -->
+<section id="summary" data-name="Summary">
+  <div class="wrap grid2">
+    <div class="rv sticky">
+      <span class="eyebrow">Executive summary</span>
+      <h2>One partnership. Three businesses. <span class="hl">Equal shares.</span></h2>
+      <div class="glass orbitcard hudc">
+        <span class="hudlabel">BIOSO PLATFORM · 3 STREAMS</span>
+        <svg class="orbit" viewBox="0 0 400 400">
+          <defs><radialGradient id="core" cx=".5" cy=".45" r=".6"><stop offset="0" stop-color="#b8ff8f"/><stop offset=".55" stop-color="#3DDC84"/><stop offset="1" stop-color="#0d3a22"/></radialGradient></defs>
+          <circle class="ring1" cx="200" cy="200" r="168" fill="none" stroke="rgba(140,255,90,.35)" stroke-dasharray="2 8"/>
+          <circle class="ring2" cx="200" cy="200" r="132" fill="none" stroke="rgba(201,161,91,.35)" stroke-dasharray="40 12 4 12"/>
+          <g stroke="rgba(140,255,90,.25)" stroke-width="1.5"><path d="M200 200 L200 52"/><path d="M200 200 L328 274"/><path d="M200 200 L72 274"/></g>
+          <g fill="#8CFF5A"><circle r="3.5"><animateMotion dur="2.6s" repeatCount="indefinite" path="M200 200 L200 52"/></circle><circle r="3.5"><animateMotion dur="2.6s" begin=".9s" repeatCount="indefinite" path="M200 200 L328 274"/></circle><circle r="3.5"><animateMotion dur="2.6s" begin="1.7s" repeatCount="indefinite" path="M200 200 L72 274"/></circle></g>
+          <g fill="#C9A15B"><circle r="2.5"><animateMotion dur="3.4s" begin="1.2s" repeatCount="indefinite" path="M200 52 L200 200"/></circle><circle r="2.5"><animateMotion dur="3.4s" begin="2s" repeatCount="indefinite" path="M328 274 L200 200"/></circle><circle r="2.5"><animateMotion dur="3.4s" begin=".4s" repeatCount="indefinite" path="M72 274 L200 200"/></circle></g>
+          <circle class="pulse" cx="200" cy="200" r="48" fill="none" stroke="#8CFF5A" stroke-width="2"/>
+          <circle cx="200" cy="200" r="48" fill="url(#core)"/>
+          <text x="200" y="196" text-anchor="middle" fill="#06110a" font-family="Fraunces" font-weight="700" font-size="19">BIOSO</text>
+          <text x="200" y="216" text-anchor="middle" fill="#06110a" font-family="JetBrains Mono" font-size="11">50 / 50</text>
+          <g class="node"><circle cx="200" cy="52" r="34" fill="rgba(14,32,23,.9)" stroke="#8CFF5A" stroke-width="2"/><text x="200" y="60" text-anchor="middle" font-size="22">🌱</text><text x="200" y="106" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-weight="600" font-size="13">Fertilisers</text></g>
+          <g class="node" style="animation-delay:1.3s"><circle cx="328" cy="274" r="34" fill="rgba(14,32,23,.9)" stroke="#C9A15B" stroke-width="2"/><text x="328" y="282" text-anchor="middle" font-size="22">🧺</text><text x="328" y="328" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-weight="600" font-size="13">Produce</text></g>
+          <g class="node" style="animation-delay:2.6s"><circle cx="72" cy="274" r="34" fill="rgba(14,32,23,.9)" stroke="#96beff" stroke-width="2"/><text x="72" y="282" text-anchor="middle" font-size="22">🧫</text><text x="72" y="328" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-weight="600" font-size="13">Cultures</text></g>
+        </svg>
+        <div class="minis"><div><b>50/50</b><span>Ownership</span></div><div><b>3</b><span>Income streams</span></div><div><b>70%</b><span>To K3 first</span></div></div>
+      </div>
+    </div>
+    <div class="rv d2">
+      <p class="lead">Mega Farmer invites K3 Agro Solutions to build the BIOSO business line together as equal partners. Both companies will own the BIOSO line 50/50 — its brand presence, market reach, sales and profit — while production runs at K3 under the technical leadership of Ch. Umair Ashraf and Mega Farmer’s microbiology team.</p>
+      <p>K3 provides the production facility and assigns a dedicated <b>BIOSO Fund</b> from which the team, raw materials and production costs are managed. Mega Farmer brings more than eight years of research, fourteen field-tested formulations, a twenty-six-strain library and the people who built it. The formulations and recipes remain Mega Farmer’s proprietary know-how, protected by an MoU, NDA, MTA and manufacturing agreement under which neither partner can produce BIOSO anywhere else or set up a competing facility.</p>
+      <p>From this one platform the partnership earns from three streams: <b>BIOSO biological fertilisers</b> replacing synthetic salts in an almost untouched market; <b>clean-grown and organic produce</b> bought back from BIOSO farmers and sold at a premium at home and abroad; and <b>locally produced microbial cultures and inoculants</b> for silage, poultry, dairy and other industries that today import them. K3 receives 70% of all profit distributions until its invested capital is recovered; after that, everything is shared equally.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MODEL -->
+<section id="model" class="alt" data-name="Partnership model">
+  <div class="wrap">
+    <span class="eyebrow rv">The partnership model</span>
+    <h2 class="rv d1">Equal owners of the business. <span class="hl">Mega Farmer runs the science.</span></h2>
+    <div class="grid2" style="margin-bottom:44px">
+      <p class="rv d2">K3 Agro Solutions is a Kasur company established in 2016 by a third-generation farming family, known as Pakistan’s first branded corn-silage bale maker, growing around 1,500 acres of corn and supplying dairy farms nationwide. It already understands inoculants, fermentation and farm logistics. That makes it the ideal home for BIOSO production and for the culture lab described in stream three.</p>
+      <p class="rv d3">Under this proposal, the BIOSO production line operates inside K3 with K3’s production unit team, while <b>Mega Farmer’s team manages production planning, fermentation and blending, quality control and batch release, raw-material specifications and sourcing, staff training and field agronomy. Ch. Umair Ashraf will serve as Technical Director of the BIOSO business line.</b> The production recipes are run through Umair Ashraf and his microbiologist team, so the formulation secrets stay with Mega Farmer while K3 shares equally in everything the line earns.</p>
+    </div>
+    <div class="contrib rv">
+      <div class="side mf">
+        <img class="sidelogo" src="assets/megafarmer-logo.webp" alt="Mega Farmer BIOSO"><span class="eyebrow">Mega Farmer brings</span>
+        <ul>
+          <li>Fourteen proven formulations and a twenty-six-strain library</li>
+          <li>Technical Director and full production leadership</li>
+          <li>Two senior microbiologists and lab assistants</li>
+          <li>The MegaFarmer BIOSO brand and living-soil story</li>
+          <li>Mother-culture library and culture-lab know-how</li>
+          <li>Business outreach, digital marketing and customer relationship team</li>
+          <li>Gulf desert-soil programme and export positioning</li>
+        </ul>
+      </div>
+      <div class="mid"><svg viewBox="0 0 90 220"><defs><linearGradient id="fg" x1="0" x2="1"><stop offset="0" stop-color="#3DDC84"/><stop offset="1" stop-color="#C9A15B"/></linearGradient></defs><path class="flow" d="M0 60 C 45 60 45 110 90 110" stroke="url(#fg)" stroke-width="2.5" fill="none"/><path class="flow" d="M90 160 C 45 160 45 110 0 110" stroke="url(#fg)" stroke-width="2.5" fill="none"/><circle cx="45" cy="110" r="24" fill="#07110c" stroke="#8CFF5A" stroke-width="2"/><text x="45" y="116" text-anchor="middle" fill="#8CFF5A" font-family="Fraunces" font-size="14">50/50</text></svg></div>
+      <div class="side k3">
+        <img class="sidelogo round" src="assets/k3-logo.png" alt="K3 Agro Solutions"><span class="eyebrow" style="color:var(--soil)">K3 brings</span>
+        <ul>
+          <li>Production unit setup at its Kasur site</li>
+          <li>A dedicated BIOSO Fund for team and production costs</li>
+          <li>Its production unit team and facilities</li>
+          <li>1,500 acres of corn as a demonstration farm</li>
+          <li>Dairy and farm customer network across Pakistan</li>
+          <li>Governance, finance and logistics experience</li>
+        </ul>
+      </div>
+    </div>
+    <div class="lock">
+      <div class="card rv"><div class="ic">🔐</div><h3>Mega Farmer commits</h3><p>Mega Farmer will produce the BIOSO range only through this partnership and nowhere else, and will dedicate its technical team to the BIOSO line at K3.</p></div>
+      <div class="card k rv d1"><div class="ic">🤝</div><h3>K3 commits</h3><p>K3 will not re-engineer or reproduce the BIOSO formulations and will not set up its own competing facility; formulation ownership stays with Mega Farmer while the business line is shared equally.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- RANGE -->
+<section id="range" data-name="BIOSO range">
+  <div class="wrap">
+    <span class="eyebrow rv">The BIOSO range</span>
+    <h2 class="rv d1">Not one bottle. A complete living system, <span class="hl">seed to harvest.</span></h2>
+    <div class="grid2">
+      <p class="rv d2">MegaFarmer BIOSO is a brand of Xelora Industries (Pvt) Ltd, Lahore, built on one idea: <i>from dead soil to living soil™</i>. Over more than eight years the team studied the saline, alkaline and nutrient-locked soils of Punjab and Balochistan and built fourteen precision formulations powered by fourteen beneficial bacteria and ten beneficial fungi.</p>
+      <div class="rv d3">
+        <p>Arranged by crop stage, the range replaces an entire synthetic programme — soil preparation, roots, vegetative growth, flowering, fruit and grain fill, and protection — across every farming method.</p>
+        <div class="chips"><span>Soil drench</span><span>Seed dip</span><span>Foliar</span><span>Drip &amp; fertigation</span><span>Greenhouse &amp; tunnel</span><span>Hydroponics</span><span>Vertical farms</span><span>Orchards</span><span>Field crops</span></div>
+      </div>
+    </div>
+    <div class="glass cropstage rv hudc">
+      <span class="hudlabel">CROP PROGRAMME · SEED TO HARVEST</span>
+      <svg viewBox="0 0 960 190">
+        <defs><linearGradient id="cl" x1="0" x2="1"><stop offset="0" stop-color="#3DDC84"/><stop offset="1" stop-color="#C9A15B"/></linearGradient></defs>
+        <rect x="40" y="128" width="880" height="3" rx="2" fill="rgba(255,255,255,.08)"/>
+        <rect x="40" y="128" width="880" height="3" rx="2" fill="url(#cl)" opacity=".5"/>
+        <circle class="cdot" cx="40" cy="129.5" r="7" fill="#8CFF5A" style="filter:drop-shadow(0 0 8px #8CFF5A)"/>
+        <g class="cstage" style="animation-delay:0s"><path d="M120 128 q-6-10 0-18 q6 8 0 18" fill="#C9A15B"/><path d="M120 128 v26 M120 140 l-12 10 M120 140 l12 10" stroke="#e9d8a6" stroke-width="2" fill="none"/><text x="120" y="182" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-size="14" font-weight="600">Soil foundation</text></g>
+        <g class="cstage" style="animation-delay:2s"><path d="M300 128 v-24" stroke="#3DDC84" stroke-width="3"/><path d="M300 112 c-14-2 -20-12 -18-22 c12 2 18 12 18 22z" fill="#3DDC84"/><path d="M300 128 v30 M300 138 l-16 14 M300 138 l16 14 M300 148 l-10 12" stroke="#e9d8a6" stroke-width="2" fill="none"/><text x="300" y="182" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-size="14" font-weight="600">Root establishment</text></g>
+        <g class="cstage" style="animation-delay:4s"><path d="M480 128 v-52" stroke="#3DDC84" stroke-width="3"/><path d="M480 100 c-22-2 -30-18 -28-32 c18 3 28 18 28 32z" fill="#3DDC84"/><path d="M480 88 c20-3 28-18 26-30 c-16 3 -26 16 -26 30z" fill="#8CFF5A"/><path d="M480 116 c18 0 26-10 30-20 c-14 0 -26 8 -30 20z" fill="#2fb86b"/><text x="480" y="182" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-size="14" font-weight="600">Vegetative growth</text></g>
+        <g class="cstage" style="animation-delay:6s"><path d="M660 128 v-64" stroke="#3DDC84" stroke-width="3"/><path d="M660 100 c-20-2 -28-16 -26-28 c16 3 26 16 26 28z" fill="#3DDC84"/><circle cx="660" cy="58" r="10" fill="#f2d36b"/><g fill="#ffe9a8"><circle cx="648" cy="58" r="5"/><circle cx="672" cy="58" r="5"/><circle cx="660" cy="46" r="5"/><circle cx="660" cy="70" r="5"/></g><text x="660" y="182" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-size="14" font-weight="600">Flowering</text></g>
+        <g class="cstage" style="animation-delay:8s"><path d="M840 128 v-62" stroke="#3DDC84" stroke-width="3"/><path d="M840 104 c-20-2 -28-16 -26-28 c16 3 26 16 26 28z" fill="#3DDC84"/><path d="M840 90 c18-2 26-14 24-26 c-14 3 -24 14 -24 26z" fill="#8CFF5A"/><circle cx="826" cy="80" r="9" fill="#ff7a59"/><circle cx="852" cy="70" r="9" fill="#ff8f5c"/><circle cx="844" cy="96" r="8" fill="#e85d3f"/><text x="840" y="182" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-size="14" font-weight="600">Fruit &amp; harvest</text></g>
+      </svg>
+    </div>
+    <div class="stages rv" id="stageBtns"><button class="on" data-s="all">All 14</button><button data-s="soil">Soil &amp; root</button><button data-s="veg">Vegetative</button><button data-s="rep">Flower &amp; fruit</button><button data-s="shield">Protection &amp; stress</button></div>
+    <div class="prods" id="prods"></div>
+  </div>
+</section>
+
+<!-- SCIENCE -->
+<section id="science" class="alt vidsec" data-name="Science">
+  <video class="bgvid" autoplay muted loop playsinline preload="auto" poster="assets/earthworm-poster.jpg" aria-hidden="true"><source src="assets/earthworm-soil.webm" type="video/webm"><source src="assets/earthworm-soil.mp4" type="video/mp4"></video>
+  <div class="bgshade"></div>
+  <span class="vidtag">LIVE SOIL · EARTHWORMS, ROOTS &amp; MICROBES AT WORK</span>
+  <div class="wrap">
+    <span class="eyebrow rv">The science</span>
+    <h2 class="rv d1">Synthetic fertiliser feeds the plant once. <span class="hl">BIOSO rebuilds the system</span> that feeds it every season.</h2>
+    <p class="lead rv d2">Healthy soil is a living system in which billions of bacteria and fungi fix nitrogen, dissolve minerals, build structure and protect roots. Decades of chemical use, burning and low organic matter have starved that system. Drag the slider to see what BIOSO puts back.</p>
+    <div class="soilbox rv d3" id="soilbox">
+      <svg viewBox="0 0 1000 420" preserveAspectRatio="xMidYMid slice">
+        <rect width="1000" height="420" fill="#2b2620"/><rect width="1000" height="120" fill="#141a14"/>
+        <g stroke="#1a1612" stroke-width="3" fill="none" opacity=".9"><path d="M80 160 l40 50 l-20 60 l50 70"/><path d="M300 140 l-30 80 l40 40 l-10 120"/><path d="M520 150 l50 60 l-40 70 l30 100"/><path d="M760 140 l-20 90 l60 50 l-30 110"/><path d="M900 170 l-40 60 l20 80"/></g>
+        <g fill="#b9a68a" opacity=".5"><circle cx="150" cy="300" r="4"/><circle cx="420" cy="250" r="3"/><circle cx="640" cy="330" r="5"/><circle cx="860" cy="270" r="3"/></g>
+        <g stroke="#7d6b4f" stroke-width="3" fill="none"><path d="M500 120 v60 m0-30 l-20 25 m20-10 l18 20"/></g>
+        <path d="M500 120 v-50 m0 20 c-20-4 -30-16 -30-30 c18 2 28 14 30 30 m0-6 c16-2 26-14 26-28 c-16 2 -24 14 -26 28" stroke="#8a7a5a" stroke-width="3" fill="#6b5f45"/>
+      </svg>
+      <svg viewBox="0 0 1000 420" preserveAspectRatio="xMidYMid slice" class="live">
+        <defs><radialGradient id="sg" cx=".5" cy=".3" r=".8"><stop offset="0" stop-color="#3b2a17"/><stop offset="1" stop-color="#1f150b"/></radialGradient></defs>
+        <rect width="1000" height="420" fill="url(#sg)"/><rect width="1000" height="120" fill="#0d1d12"/>
+        <g fill="#4a3620" opacity=".9"><circle cx="120" cy="190" r="16"/><circle cx="260" cy="300" r="22"/><circle cx="380" cy="210" r="14"/><circle cx="620" cy="280" r="20"/><circle cx="760" cy="200" r="15"/><circle cx="880" cy="320" r="24"/><circle cx="180" cy="370" r="18"/><circle cx="700" cy="370" r="14"/></g>
+        <g stroke="#e9d8a6" stroke-width="2.4" fill="none" opacity=".85">
+          <path class="root" d="M500 120 C 500 200 470 250 430 320 C 410 360 380 390 360 415"/><path class="root" d="M500 120 C 510 210 560 260 610 320 C 640 360 650 390 680 415"/><path class="root" d="M500 150 C 440 180 380 190 300 230 C 250 255 200 260 150 290"/><path class="root" d="M500 150 C 570 180 650 190 720 240 C 780 270 830 280 880 300"/><path class="root" d="M500 200 C 490 260 520 320 500 410"/>
+        </g>
+        <g stroke="#8CFF5A" stroke-width="1" fill="none" opacity=".45"><path class="root" d="M430 320 C 380 300 330 330 280 310 C 240 295 200 320 160 330"/><path class="root" d="M610 320 C 660 300 720 330 780 310 C 820 300 860 320 920 330"/></g>
+        <g id="bugs"></g>
+        <path d="M500 120 v-70" stroke="#3DDC84" stroke-width="5"/><path d="M500 80 c-34-6 -52-28 -50-54 c30 4 48 26 50 54 z" fill="#3DDC84"/><path d="M500 64 c30-4 48-26 46-50 c-28 4 -44 24 -46 50 z" fill="#8CFF5A"/><path d="M500 96 c26 0 44-14 50-32 c-22 0 -42 14 -50 32 z" fill="#2fb86b"/>
+      </svg>
+      <span class="tag l">DEAD SOIL</span><span class="tag r">LIVING SOIL</span>
+      <div class="handle" id="handle"></div>
+    </div>
+    <div class="grid4" style="margin-top:44px">
+      <div class="card rv"><div class="ic">🌿</div><h3>Nutrition</h3><p>Nitrogen-fixers pull nitrogen from the air; phosphate-solubilising bacteria and fungi release the phosphorus alkaline soil locks up; other strains free potassium, silicon, zinc and iron.</p></div>
+      <div class="card rv d1"><div class="ic">🧱</div><h3>Structure</h3><p>Microbes glue particles into crumbs. Within one to three seasons soil turns darker and softer, holds water and buffers high pH and salt.</p></div>
+      <div class="card rv d2"><div class="ic">🛡️</div><h3>Immunity</h3><p>Beneficial bacteria prime the plant’s own defences, while <i>Trichoderma</i>, <i>Bacillus</i> and biological agents suppress disease and pests.</p></div>
+      <div class="card rv d3"><div class="ic">☀️</div><h3>Resilience</h3><p>Silicon, selenium and stress-reducing bacteria help crops grow through heat, drought and salinity — vital in Pakistan and the Gulf.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARKET -->
+<section id="market" data-name="Market">
+  <div class="wrap">
+    <span class="eyebrow rv">The size of the prize</span>
+    <h2 class="rv d1">Farmers spend over <span class="hl">a trillion rupees</span> a year on urea and DAP alone.</h2>
+    <div class="grid2">
+      <div class="rv d2">
+        <p>Pakistan’s soils are predominantly alkaline and low in organic matter, so much of the fertiliser farmers apply is locked up or lost, and they apply more every year for shrinking returns — with a bag of DAP now around Rs 17,000 and urea around Rs 4,500. In 2025 farmers bought about 6.73 million tonnes of urea and 1.34 million tonnes of DAP, more than Rs 1.06 trillion at today’s prices.</p>
+        <p>One per cent of that spending is about Rs 10.6 billion a year; one per cent of Pakistan’s 74.6 million arable acres is about 746,000 acres. Biological fertilisers remain a tiny share of use, which is why we describe BIOSO’s market as almost untouched: every farm in the country is a potential customer.</p>
+      </div>
+      <div class="grid2 rv d3" style="gap:16px">
+        <div class="stat"><b data-count="1.06" data-dec="2" data-pre="Rs " data-suf=" trn">0</b><span>Urea + DAP spend per year</span></div>
+        <div class="stat"><b data-count="161" data-suf=" m">0</b><span>Bags of urea and DAP bought in 2025</span></div>
+        <div class="stat"><b data-count="10.6" data-dec="1" data-pre="Rs " data-suf=" bn">0</b><span>Value of just 1% of that spend</span></div>
+        <div class="stat"><b data-count="12" data-suf="%">0</b><span>Global biofertiliser growth per year</span></div>
+      </div>
+    </div>
+    <p class="note">Sources: ProPakistani, Express Tribune, Kisan ka Pakistan (prices Nov 2026), Dawn/FAO, Fortune Business Insights, Straits Research.</p>
+  </div>
+</section>
+
+
+<!-- STREAMS OVERVIEW -->
+<section id="streams" class="alt" data-name="Three streams">
+  <div class="wrap">
+    <span class="eyebrow rv">The Mega Farmer BIOSO market strategy</span>
+    <h2 class="rv d1">One platform. <span class="hl">Three streams of income.</span></h2>
+    <p class="lead rv d2">The same fermentation know-how, microbiology team and farmer network that make BIOSO fertilisers also unlock two more businesses. Each stream feeds the others: fertiliser customers become produce suppliers, and the culture library behind BIOSO becomes a product line of its own.</p>
+    <div class="streams3">
+      <div class="stream rv"><span class="num">01</span><span class="pill">Inputs</span><h3>BIOSO biological fertilisers</h3><p>Living, microorganism-based fertilisers and biopesticides that replace synthetic salts with equal results at lower cost, reviving soil through sustainable farming.</p><a href="#s1">Explore stream 1 →</a></div>
+      <div class="stream s2 rv d1"><span class="num">02</span><span class="pill">Produce</span><h3>Clean-grown &amp; organic food</h3><p>We pre-book and buy the harvest of BIOSO farmers at better-than-mandi rates and sell it labelled, tested and traceable — at home, in the Gulf, and to Europe and the US once certified.</p><a href="#s2">Explore stream 2 →</a></div>
+      <div class="stream s3 rv d2"><span class="num">03</span><span class="pill">Cultures</span><h3>Microbial cultures &amp; inoculants</h3><p>A culture lab and mother-culture library at K3 producing silage inoculants, probiotics and industrial cultures that Pakistan currently imports — starting with K3’s own silage.</p><a href="#s3">Explore stream 3 →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- STREAM 1 -->
+<section id="s1" data-name="Stream 1 · Fertilisers">
+  <div class="wrap">
+    <span class="eyebrow rv">Stream 1 · BIOSO biological fertilisers</span>
+    <h2 class="rv d1">Capturing a huge market <span class="hl">almost no one is serving.</span></h2>
+    <div class="grid2">
+      <div class="rv d2">
+        <p>Pakistan’s fertiliser market is dominated by synthetic salts. The alternatives that exist are single-strain products from research institutes with limited reach, imported biologicals priced in dollars and designed for temperate soils, and biostimulants with no live microbes at all. To the best of our knowledge, BIOSO is the only complete, stage-by-stage biological nutrition and protection system in the country — fourteen products that cover every crop stage, every major crop and every farming method.</p>
+        <p>The proposition to the farmer is simple and powerful: equal results with lower spending, healthier soil every season, fewer sprays and safer food. Because our production cost is low and our raw materials are local, BIOSO can be priced below the synthetic fertiliser it replaces while still carrying strong margins for the partnership.</p>
+        <div class="meters rv hudc">
+          <span class="hudlabel">SYNTHETIC SALTS vs BIOSO</span>
+          <div class="mhead" style="margin-top:10px"><span><i style="background:#a78d6a"></i>Synthetic salts</span><span><i style="background:var(--neon)"></i>BIOSO</span></div>
+          <div class="meter"><label>Living soil biology</label><div class="mbar syn"><i data-w="15"></i></div><div class="mbar bio"><i data-w="90"></i></div></div>
+          <div class="meter"><label>Nutrient unlocking</label><div class="mbar syn"><i data-w="30"></i></div><div class="mbar bio"><i data-w="85"></i></div></div>
+          <div class="meter"><label>Water holding</label><div class="mbar syn"><i data-w="35"></i></div><div class="mbar bio"><i data-w="80"></i></div></div>
+          <div class="meter"><label>Chemical residue</label><div class="mbar syn"><i data-w="85"></i></div><div class="mbar bio"><i data-w="10"></i></div></div>
+          <div class="meter"><label>Input cost per season</label><div class="mbar syn"><i data-w="90"></i></div><div class="mbar bio"><i data-w="40"></i></div></div>
+          <p class="note" style="margin:6px 0 0">Illustrative direction of change, not measured values.</p>
+        </div>
+      </div>
+      <div class="rv d3">
+        <div class="card" style="margin-bottom:14px"><h3>Proprietary &amp; protected</h3><p>A twenty-six-strain library and formulations that remain Mega Farmer’s know-how, produced only through this partnership.</p></div>
+        <div class="card" style="margin-bottom:14px"><h3>Certified every batch</h3><p>Viable count, pathogen-free status and nutrient profile tested on every batch, building trust copycat products cannot match.</p></div>
+        <div class="card"><h3>Fast route to market</h3><p>Demonstration on K3’s corn and progressive farms across Kasur, Okara, Sahiwal and Pakpattan; then dealers across Punjab, Sindh and KP, corporate farms, sugar-mill grower programmes and dairies.</p></div>
+        <div class="card" style="margin-top:14px"><h3>Built for problem soils</h3><p>Designed for the land conventional fertiliser fails on.</p><div class="soilchips"><span>Alkaline</span><span>Saline</span><span>Nutrient-locked</span><span>Sandy &amp; desert</span><span>Hard &amp; arid</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STREAM 2 -->
+<section id="s2" class="alt" data-name="Stream 2 · Produce">
+  <div class="wrap">
+    <span class="eyebrow rv">Stream 2 · Farm-to-shelf clean &amp; organic produce</span>
+    <h2 class="rv d1">Farmers don’t just need better inputs. <span class="soil">They need a buyer.</span></h2>
+    <p class="lead rv d2">Every season Pakistani farmers grow good crops and still lose money, because when prices crash there is no one to buy at a fair rate. That is the gap stream two fills — and it is also what makes farmers choose BIOSO again and again.</p>
+    <div class="facts">
+      <div class="fact rv"><b data-count="40" data-pre="30–" data-suf="%">0</b><span>Of Pakistan’s fruit and vegetables lost after harvest — worth an estimated Rs 400–500 bn a year</span><br><a href="https://www.dawn.com/news/1917950" target="_blank" rel="noopener">Dawn, Jun 2025</a></div>
+      <div class="fact rv d1"><b>Rs 4 / kg</b><span>Paid to tomato growers in Mirpurkhas while Karachi shoppers paid Rs 30–50; crops worth millions went to waste</span><br><a href="https://english.aaj.tv/news/330404947" target="_blank" rel="noopener">Aaj News, Feb 2025</a></div>
+      <div class="fact rv d2"><b>Rs 200 / bag</b><span>Punjab potato price in January 2026, down from Rs 2,000–2,500 a season earlier; some growers ploughed standing crops back in</span><br><a href="https://www.dawn.com/news/1967693" target="_blank" rel="noopener">Dawn, Jan 2026</a></div>
+      <div class="fact rv"><b>Rs 2.5 lakh</b><span>Loss per acre faced by potato growers in Okara, Kasur and Sahiwal, with farm-gate prices of Rs 10–15 per kg</span><br><a href="https://www.dawn.com/news/1965459" target="_blank" rel="noopener">Dawn, Jan 2026</a></div>
+      <div class="fact rv d1"><b>57%</b><span>Share of the auction price that reaches farmers at Lahore’s Badami Bagh market; tomato prices rise 83% from auction to consumer</span><br><a href="https://www.theigc.org/sites/default/files/2024-09/Asad%20et%20al.%20Policy%20Brief%20September%202024.pdf" target="_blank" rel="noopener">IGC, Sep 2024</a></div>
+      <div class="fact rv d2"><b>Rs 8–10 bn</b><span>Losses feared by Sargodha kinnow growers in December 2025 with cold stores 80–90% full</span><br><a href="https://www.dawn.com/news/1962365" target="_blank" rel="noopener">Dawn, Dec 2025</a></div>
+    </div>
+    <div class="grid2" style="align-items:center;margin-top:20px">
+      <div>
+        <p class="rv">Under the BIOSO programme, every enrolled farmer is offered a <b>pre-booked purchase contract</b>: before sowing, the partnership agrees to buy his harvest at <b>Rs 5 to 10 per kilogram above the prevailing mandi rate</b>, paid promptly on delivery. For a farmer who has watched tomatoes sell for Rs 4 a kilo or potatoes for Rs 200 a bag, that certainty is worth more than any discount on fertiliser. The result is a self-reinforcing loop: farmers buy BIOSO because it guarantees them a market, and the partnership gains a reliable supply of clean, traceable produce.</p>
+        <p class="rv">The produce is graded, tested for pesticide residues and heavy metals, packed in a pack-house at Kasur, and sold as <i>MegaFarmer Clean-Grown</i> with a laboratory certificate and a QR code that shows where and how it was grown. Fields that complete the three-year conversion are then certified organic by an accredited certification body, which unlocks the full organic premium of 20–40% in international markets.</p>
+        <div id="loopInfo" class="card rv"><h3>Tap a step</h3><p>Follow the loop from enrolment to the shelf.</p></div>
+      </div>
+      <div class="loopwrap rv d2"><svg viewBox="0 0 560 560" id="loopSvg"></svg></div>
+    </div>
+    <h3 class="rv" style="font-size:28px;margin-top:70px">The export opportunity: Europe and the United States</h3>
+    <div class="facts">
+      <div class="fact rv"><b data-count="2.98" data-dec="2" data-suf=" Mt">0</b><span>Organic agri-food imported by the EU in 2025, a record and up 12.8% in a year</span><br><a href="https://transition-pathways.europa.eu/agri-food/publications/eu-organic-agri-food-imports-reached-record-volumes-2025" target="_blank" rel="noopener">European Commission, 2026</a></div>
+      <div class="fact rv d1"><b data-count="66189" data-suf=" t">0</b><span>Pakistan’s organic exports to the EU in 2025 — 10th largest supplier, up 18.8%, mostly cereals. Fruit &amp; vegetables are the open door.</span><br><a href="https://organicinfo.ua/wp-content/uploads/2026/08/EU-organic-imports-2025.pdf" target="_blank" rel="noopener">EC brief, 2026</a></div>
+      <div class="fact rv d2"><b>36.7%</b><span>Share of EU organic imports that are fruit and nuts, the largest category — 1.09 million tonnes</span><br><a href="https://organicinfo.ua/wp-content/uploads/2026/08/EU-organic-imports-2025.pdf" target="_blank" rel="noopener">EC brief, 2026</a></div>
+      <div class="fact rv"><b>€49.5 bn</b><span>EU organic retail market in 2024</span><br><a href="https://www.fibl.org/fileadmin/documents/en/news/2026/MR-EUROPE-2026-02-10-ENGLISH-final.pdf" target="_blank" rel="noopener">FiBL, 2026</a></div>
+      <div class="fact rv d1"><b>US$ 76.6 bn</b><span>US organic sales in 2025; produce is the largest category at US$ 22.7 bn</span><br><a href="https://www.newhope.com/market-data-and-analysis/organic-food-and-products-hit-76-6-billion-in-2025-doubling-conventional-market-growth" target="_blank" rel="noopener">OTA via New Hope, 2026</a></div>
+      <div class="fact rv d2"><b>US$ 5.7 bn</b><span>US organic imports in 2024, led by fruit such as bananas, berries and avocados; tomatoes, potatoes and mangoes also feature</span><br><a href="https://www.ers.usda.gov/data-products/charts-of-note/111163" target="_blank" rel="noopener">USDA ERS, 2025</a></div>
+    </div>
+    <p class="rv">Pakistan already proves it can sell organic food into Europe: its organic exports to the EU grew 18.8% in 2025, yet almost all of it was cereals. Fruit, vegetables, potatoes, kinnow and mango — products Punjab grows in abundance — are barely represented. BIOSO farms, with traceable inputs and residue testing from day one, are the natural supply base for certified organic exports through EU-recognised control bodies and USDA-accredited certifiers.</p>
+    <div class="phases">
+      <div class="card rv"><span class="when">PHASE 1 · YEAR 1–2</span><h3>Clean-grown at home</h3><p>Residue-tested BIOSO produce for Lahore, Islamabad and Karachi supermarkets, online grocers and hotels.</p></div>
+      <div class="card rv d1"><span class="when">PHASE 2 · YEAR 2–3</span><h3>The Gulf</h3><p>Premium clean-grown and organic produce to the UAE, Saudi Arabia, Qatar and Oman, Pakistan’s established fresh-produce markets.</p></div>
+      <div class="card rv d2"><span class="when">PHASE 3 · YEAR 3+</span><h3>Certified organic to EU &amp; US</h3><p>Fields that complete conversion are certified organic for Europe and the United States, starting with rice, potatoes, kinnow, mango and vegetables.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- STREAM 3 -->
+<section id="s3" data-name="Stream 3 · Cultures">
+  <div class="wrap">
+    <span class="eyebrow rv">Stream 3 · BIOSO microbial cultures &amp; inoculants</span>
+    <h2 class="rv d1">Pakistan imports its microbes. <span class="hl">We can make them at K3.</span></h2>
+    <div class="grid2" style="align-items:center">
+      <div class="rv d2">
+        <p>Silage cannot be made well without the right bacteria. Corn and fodder silage relies on lactic-acid bacteria such as <i>Lactiplantibacillus plantarum</i>, <i>Pediococcus pentosaceus</i>, <i>Pediococcus acidilactici</i>, <i>Enterococcus faecium</i> and <i>Lactococcus lactis</i> to drop the pH quickly, and on <i>Lentilactobacillus buchneri</i> to keep the silage stable and free of moulds when the bale is opened; <i>Bacillus subtilis</i> is also being studied for aerobic stability in corn silage. Today these inoculants come largely from foreign suppliers: imported products on Pakistani agri-stores sell for around Rs 17,850 per 100 g pack or Rs 14,925 per 5 litres.</p>
+        <p>K3 itself uses inoculants in its silage. The first goal of the culture lab is therefore immediate: produce a BIOSO silage inoculant for K3’s own bales, replacing imports and cutting cost, then sell it to the silage makers and dairy farms that K3 already supplies. From there, the same lab and team can serve every industry that depends on beneficial microbes.</p>
+      </div>
+      <svg class="petri rv d3" viewBox="0 0 400 400" id="petri">
+        <defs><radialGradient id="pg" cx=".5" cy=".45" r=".6"><stop offset="0" stop-color="#1a3324"/><stop offset="1" stop-color="#0b1a12"/></radialGradient></defs>
+        <circle cx="200" cy="200" r="180" fill="url(#pg)" stroke="#8CFF5A" stroke-width="2" opacity=".95"/>
+        <circle cx="200" cy="200" r="168" fill="none" stroke="rgba(140,255,90,.25)" stroke-width="1"/>
+        <g id="colonies"></g>
+        <text x="200" y="384" text-anchor="middle" fill="#9DB3A2" font-family="JetBrains Mono" font-size="12">MOTHER-CULTURE LIBRARY · K3 LAB</text>
+      </svg>
+    </div>
+    <h3 class="rv" style="font-size:26px;margin-top:50px">Industries that buy beneficial microbes</h3>
+    <div class="tablewrap rv">
+    <table class="ind">
+      <thead><tr><th>Industry</th><th>Typical species</th><th>What they do</th><th>The Pakistan opportunity</th></tr></thead>
+      <tbody>
+        <tr><td>Silage &amp; fodder</td><td><i>L. plantarum, P. pentosaceus, P. acidilactici, E. faecium, L. buchneri, Lactococcus lactis</i></td><td>Fast fermentation, less spoilage, stable bales</td><td>K3’s own bales first, then silage makers and dairy farms; Punjab’s silage programmes report around 30% more milk</td></tr>
+        <tr><td>Poultry &amp; livestock probiotics</td><td><i>Bacillus subtilis, B. licheniformis, B. pumilus, B. amyloliquefaciens, Lactobacillus acidophilus, Saccharomyces cerevisiae</i></td><td>Gut health, feed efficiency, fewer antibiotics</td><td>2.47 billion birds and over Rs 1,056 bn invested in poultry; Pakistan imported US$60 m of feed preparations in 2023</td></tr>
+        <tr><td>Dairy fermentation</td><td><i>Lactococcus lactis, Streptococcus thermophilus, Lactobacillus delbrueckii bulgaricus</i></td><td>Yogurt, cheese and lassi starter cultures</td><td>Pakistan is among the world’s largest milk producers, with an estimated 72 bn litres a year</td></tr>
+        <tr><td>Wastewater &amp; textile effluent</td><td><i>Bacillus, Pseudomonas, Nitrosomonas, Nitrobacter</i></td><td>Biological treatment of effluent</td><td>Textiles are over 60% of exports, and many effluent plants are not working effectively</td></tr>
+        <tr><td>Compost &amp; biogas</td><td><i>Trichoderma, Bacillus, Aspergillus</i></td><td>Faster composting, better digester output</td><td>Huge volumes of crop residue, manure and mandi waste</td></tr>
+        <tr><td>Biopesticides</td><td><i>Bacillus thuringiensis, Beauveria bassiana, Metarhizium, Trichoderma</i></td><td>Biological pest and disease control</td><td>Pakistan approved biopesticide registration guidance in 2024; the pesticide market exceeds US$300 m</td></tr>
+        <tr><td>Aquaculture</td><td><i>Bacillus</i> blends</td><td>Pond water quality and shrimp health</td><td>Growing shrimp farming in Sindh and saline areas of Punjab</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p class="note">Sources: Farming Connect (Wales) silage additives guide; University of Wisconsin Extension; Kissan Ghar and Kissan Store listings; Pakistan Economic Survey via ProPakistani; Business Recorder; PIDE; APTMA; Agrilinks/CABI; World Bank WITS.</p>
+    <div class="facts" style="margin-top:30px">
+      <div class="fact rv"><b>US$ 485 m</b><span>Global silage inoculant market in 2024, heading to US$ 861 m by 2034</span><br><a href="https://www.news.market.us/silage-inoculants-market-news" target="_blank" rel="noopener">Market.us</a></div>
+      <div class="fact rv d1"><b>US$ 1.38 bn</b><span>Global dairy starter culture market in 2024</span><br><a href="https://www.news.market.us/dairy-starter-culture-market-news" target="_blank" rel="noopener">Market.us</a></div>
+      <div class="fact rv d2"><b>US$ 9.9 bn</b><span>Global biopesticide market in 2025, growing about 17% a year</span><br><a href="https://www.fortunebusinessinsights.com/biopesticides-market-100073" target="_blank" rel="noopener">Fortune BI</a></div>
+    </div>
+    <p class="rv">Mega Farmer’s microbiologists will set up and run the lab at K3 and maintain a complete mother-culture library of beneficial bacteria and fungi — isolated, identified, preserved and quality-tested — that serves both the BIOSO fertiliser line and a separate range of finished inoculant products for each industry. Because the cultures are produced locally, the partnership can undercut imported prices, deliver fresher product faster, and build a business in its own right that can bring in millions of rupees in sales every year.</p>
+  </div>
+</section>
+
+<!-- ECONOMICS -->
+<section id="economics" class="alt" data-name="Economics">
+  <div class="wrap">
+    <span class="eyebrow rv">The farmer’s economics</span>
+    <h2 class="rv d1">Always cheaper than the fertiliser it replaces — and <span class="hl">cheaper every season.</span></h2>
+    <div class="grid2">
+      <div>
+        <p class="rv d2">We have calculated that BIOSO will cost the partnership about <b class="hl">Rs 40–50 per litre to produce</b>. On top of that sit bottling and packaging, labour and quality control, and delivery to distributors and farms. Mega Farmer and K3 will decide the commercial rates together, so that every cost is covered, the partnership keeps a healthy profit, and the farmer still pays far less than he spends today on synthetic fertilisers and pesticides.</p>
+        <p class="rv d3">On a typical acre of wheat a farmer applies about one bag of DAP and two and a half bags of urea, roughly Rs 28,000 per season. In the first season on BIOSO he keeps about half of that while the microbes establish; as soil life builds up the synthetic share falls further, and on revived soil to around a fifth from the third season. Use the price builder to see how a commercial price comes together — every figure is an adjustable assumption for the two partners to set.</p>
+        <div id="seasons" class="rv">
+          <div class="season"><span class="lbl">Conventional</span><div class="track"><div class="syn" data-w="100"></div></div><b>100%</b></div>
+          <div class="season"><span class="lbl">BIOSO season 1</span><div class="track"><div class="syn" data-w="50"></div><div class="bio" data-w="10"></div></div><b>50%</b></div>
+          <div class="season"><span class="lbl">BIOSO season 2</span><div class="track"><div class="syn" data-w="35"></div><div class="bio" data-w="10"></div></div><b>35%</b></div>
+          <div class="season"><span class="lbl">Season 3 onward</span><div class="track"><div class="syn" data-w="20"></div><div class="bio" data-w="10"></div></div><b>20%</b></div>
+          <div class="legend"><span><i style="background:#a78d6a"></i>Urea + DAP used</span><span><i style="background:var(--neon)"></i>BIOSO programme</span></div>
+        </div>
+      </div>
+      <div class="builder rv d2">
+        <span class="eyebrow">Interactive · price builder (per litre)</span>
+        <div class="brow"><label>Production cost</label><output id="o0"></output><input type="range" id="b0" min="40" max="50" value="45"></div>
+        <div class="brow"><label>Bottling &amp; packaging</label><output id="o1"></output><input type="range" id="b1" min="15" max="80" value="35"></div>
+        <div class="brow"><label>Labour, QC &amp; overheads</label><output id="o2"></output><input type="range" id="b2" min="10" max="60" value="25"></div>
+        <div class="brow"><label>Delivery to distributor &amp; farm</label><output id="o3"></output><input type="range" id="b3" min="10" max="50" value="20"></div>
+        <div class="brow"><label>Partnership profit</label><output id="o4"></output><input type="range" id="b4" min="50" max="400" step="10" value="150"></div>
+        <div class="brow"><label>Dealer margin</label><output id="o5"></output><input type="range" id="b5" min="0" max="30" value="20"></div>
+        <div class="brow"><label>Litres per acre per season (varies by crop)</label><output id="o6"></output><input type="range" id="b6" min="4" max="20" value="8"></div>
+        <div class="stack" id="stack"></div>
+        <div class="vs">
+          <div class="card"><span style="font-size:13px;color:var(--muted)">Farmer price per litre</span><b id="fp" class="hl">–</b></div>
+          <div class="card"><span style="font-size:13px;color:var(--muted)">BIOSO cost per acre</span><b id="pa">–</b></div>
+        </div>
+        <p class="note" id="cmp"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLANT -->
+<section id="plant" data-name="Plant">
+  <div class="wrap">
+    <span class="eyebrow rv">The production unit</span>
+    <h2 class="rv d1">A practical, food-grade plant at K3 — <span class="hl">Rs 40–60 lakh estimated.</span></h2>
+    <p class="lead rv d2">The BIOSO production unit is built at K3’s site around food-grade plastic production drums of 10,000 litres each: most for multiplying the beneficial bacteria and fungi under controlled aeration and temperature, some for blending the non-microbial lines, and some for holding finished product until laboratory release.</p>
+    <div class="tanks" id="tanks"></div>
+    <div class="legend rv"><span><i style="background:var(--leaf)"></i>Fermentation</span><span><i style="background:var(--soil)"></i>Blending</span><span><i style="background:#96beff"></i>Holding &amp; QC release</span></div>
+    <div class="grid3" style="margin-top:40px">
+      <div class="card rv"><h3>Production</h3><p>Food-grade plastic (HDPE) drums of 10,000 litres; air blowers or compressors with air filters for aeration; agitators and mixers; water heating; RO water treatment unit; transfer pumps, food-grade pipes and valves; holding drums for finished product.</p></div>
+      <div class="card rv d1"><h3>Solid &amp; packing</h3><p>Crusher and shredder for rice husk, straw and mandi waste; hammer mill; composting and solid-fermentation beds; dryer; mixer and granulator; sieves; liquid filling and capping machine; labelling and batch coding; sealing; weighing scales; bagging machine; pallets and racks.</p></div>
+      <div class="card rv d2"><h3>Laboratory &amp; power</h3><p>Autoclave, laminar-flow cabinet, incubators, microscope, colony counter, refrigerator and deep freezer for the culture library, pH and EC meters, glassware and media; plus a generator or solar back-up so living cultures never lose power.</p></div>
+    </div>
+    <div class="costband rv">
+      <div><span class="eyebrow">Production unit setup · estimate</span><div><b>Rs 40 – 60 lakh</b></div></div>
+      <p style="margin:0;max-width:52ch">This is an estimate. K3 can source the machinery and equipment through its own suppliers at the best market rate; prices vary with quality, machine type and production size, and the final list will be agreed together.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FUND -->
+<section id="fund" class="alt" data-name="BIOSO Fund">
+  <div class="wrap">
+    <span class="eyebrow rv">The BIOSO Fund &amp; the team</span>
+    <h2 class="rv d1">K3 funds the line. <span class="hl">Mega Farmer runs it.</span></h2>
+    <p class="lead rv d2">K3 will assign a dedicated BIOSO Fund for the business line, from which the Mega Farmer team, raw materials and production costs are managed. The team’s monthly funding is paid in advance and covers salaries and the technical assistance Mega Farmer provides for building the production unit, streamlining production and opening market access. The monthly amount will be decided mutually by both partners.</p>
+    <div class="fund">
+      <div class="card rv"><div class="ic">🏭</div><h3>Production unit setup</h3><p>The one-time setup of drums, machinery and lab, estimated at Rs 40–60 lakh.</p></div>
+      <div class="card rv d1"><div class="ic">👩‍🔬</div><h3>Team &amp; technical assistance</h3><p>Monthly advance for the Mega Farmer team, agreed together.</p></div>
+      <div class="card rv d2"><div class="ic">🌾</div><h3>Raw materials</h3><p>Carriers, nutrients, media and cultures for every production run.</p></div>
+      <div class="card rv"><div class="ic">🧴</div><h3>Bottling &amp; packaging</h3><p>Bottles, cans, bags, labels and cartons.</p></div>
+      <div class="card rv d1"><div class="ic">🔬</div><h3>Testing &amp; certification</h3><p>Batch testing, product registration and organic certification.</p></div>
+      <div class="card rv d2"><div class="ic">📣</div><h3>Market access</h3><p>Branding, demonstration farms, dealer launch and farmer education.</p></div>
+    </div>
+    <h3 class="rv" style="font-size:28px;margin-top:60px">The Mega Farmer team at K3</h3>
+    <p class="rv">Mega Farmer’s team will manage production planning, fermentation and blending, quality control and batch release, raw-material specifications and sourcing, staff training and field agronomy, working alongside K3’s production unit team. Ch. Umair Ashraf will serve as Technical Director of the BIOSO business line.</p>
+    <div class="teamlead">
+      <div class="card lead1 rv"><span class="pill">Technical Director · BIOSO business line</span><h3 style="margin-top:14px">Ch. Umair Ashraf</h3><p>Founder &amp; CEO, Mega Farmer. Leads formulations, production recipes, scale-up and field programmes, and heads the full Mega Farmer team at K3.</p></div>
+      <div class="card lead1 rv d1"><span class="pill">Director · Operations &amp; Commercial</span><h3 style="margin-top:14px">Ch. Gohar Ashraf</h3><p>Leads operations planning, commercial strategy, dealer network and partnerships for the BIOSO line.</p></div>
+    </div>
+    <div class="teamgrid">
+      <div class="card rv"><span class="pill">Senior Manager · Business Outreach &amp; Customer Relations</span><h3 style="margin-top:14px">Sawaiz Sharaf Kazmi</h3><p>Business outreach and international vendors; social media outreach on TikTok, YouTube, LinkedIn, X and Reddit; Google search, AIO, AEO and GEO visibility; and full customer relationship management.</p></div>
+      <div class="card rv d1"><span class="pill">Senior Manager · Manufacturing &amp; Production Quality</span><h3 style="margin-top:14px">Muhammad Adnan Aslam</h3><p>Manages labour at the manufacturing unit, raw-material sourcing, labour training, and makes sure every batch meets production quality standards.</p></div>
+      <div class="card rv d2"><span class="pill">Senior Microbiologist × 2</span><h3 style="margin-top:14px">Microbiology leads</h3><p>Culture library, fermentation control, batch release and inoculant development.</p></div>
+      <div class="card rv"><span class="pill">Lab Assistant × 2</span><h3 style="margin-top:14px">Laboratory support</h3><p>Media preparation, sampling, testing and record keeping.</p></div>
+      <div class="card rv d1"><span class="pill">K3 production unit team</span><h3 style="margin-top:14px">Plant operations</h3><p>Operators, packing, stores and dispatch, trained by Mega Farmer.</p></div>
+      <div class="card rv d2"><span class="pill">Joint</span><h3 style="margin-top:14px">BIOSO Steering Board</h3><p>Equal members from both partners, meeting monthly to approve plans, budgets and pricing. K3 is represented by Mr. Muhammad Khan, Chief Operating Officer.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- RETURNS -->
+<section id="returns" data-name="Returns">
+  <div class="wrap">
+    <span class="eyebrow rv">Projections &amp; profit sharing</span>
+    <h2 class="rv d1">50 / 50 in everything. <span class="soil">K3 is repaid first.</span></h2>
+    <p class="lead rv d2">With three streams, our base case grows from about Rs 25 million of sales in year one to about Rs 1.45 billion in year five, with net profit of around Rs 350 million that year. Both partners share sales and profit equally — and K3 receives 70% of distributions until its invested capital is recovered.</p>
+    <div class="grid2" style="margin-top:30px">
+      <div class="card rv">
+        <h3>Revenue by stream (Rs million)</h3>
+        <svg class="chart" viewBox="0 0 520 330" id="revChart"></svg>
+        <div class="legend"><span><i style="background:var(--neon)"></i>BIOSO fertilisers</span><span><i style="background:var(--soil)"></i>Clean &amp; organic produce</span><span><i style="background:#96beff"></i>Microbial cultures</span></div>
+      </div>
+      <div class="card rv d2">
+        <h3>Net profit and each partner’s half (Rs million)</h3>
+        <svg class="chart" viewBox="0 0 520 330" id="npChart"></svg>
+        <p class="note">Each bar is net profit after tax; the line marks each partner’s 50% share.</p>
+      </div>
+    </div>
+    <div class="grid2" style="margin-top:50px">
+      <div class="rv">
+        <p>Both companies own the BIOSO business line equally — brand presence, market reach, sales, profit and every asset the line builds. Mega Farmer contributes its formulations, team and know-how; K3 contributes the production unit, the BIOSO Fund and its facilities. A BIOSO Steering Board with equal members from both sides approves budgets, pricing and plans.</p>
+        <p>From year two, half of each year’s profit is distributed and half retained for growth. <b class="soil">70% of every distribution goes to K3 until it has recovered its invested capital</b>; after that, profits are shared 50/50. The simulator shows how the split works for any capital amount the partners agree.</p>
+        <div class="glass sharecard hudc">
+          <svg viewBox="0 0 300 300"><defs><linearGradient id="kgr" x1="0" x2="1"><stop offset="0" stop-color="#8a6a35"/><stop offset="1" stop-color="#C9A15B"/></linearGradient><linearGradient id="mgr" x1="0" x2="1"><stop offset="0" stop-color="#3DDC84"/><stop offset="1" stop-color="#8CFF5A"/></linearGradient></defs>
+            <circle class="ring5" cx="150" cy="150" r="140" fill="none" stroke="rgba(140,255,90,.3)" stroke-dasharray="2 9"/>
+            <path d="M150 30 A120 120 0 0 1 150 270" fill="none" stroke="url(#mgr)" stroke-width="22" stroke-linecap="round"/>
+            <path d="M150 270 A120 120 0 0 1 150 30" fill="none" stroke="url(#kgr)" stroke-width="22" stroke-linecap="round"/>
+            <circle r="7" fill="#fff"><animateMotion dur="6s" repeatCount="indefinite" path="M150 30 A120 120 0 1 1 149.9 30"/></circle>
+            <text x="150" y="146" text-anchor="middle" fill="#EEF4E6" font-family="Fraunces" font-size="44">50·50</text>
+            <text x="150" y="178" text-anchor="middle" fill="#9DB3A2" font-family="JetBrains Mono" font-size="14" letter-spacing="3">EQUAL OWNERS</text>
+          </svg>
+          <div><span class="hudlabel">ONE BUSINESS LINE · TWO EQUAL PARTNERS</span><p style="margin:10px 0 0;font-size:15px"><b class="soil">K3 Agro Solutions</b> — production unit, BIOSO Fund, facilities and network.<br><b class="hl">Mega Farmer</b> — formulations, Technical Director, microbiology team and brand.</p></div>
+        </div>
+      </div>
+      <div class="sim rv d2">
+        <span class="eyebrow">Interactive · profit-sharing simulator</span>
+        <div>K3 capital to recover: <b id="capT" style="font-family:Fraunces;font-size:22px">Rs 100 lakh</b></div>
+        <input type="range" id="capR" min="40" max="300" step="5" value="100" aria-label="K3 capital">
+        <div>Total profit distributed to date: <b id="simTot" style="font-family:Fraunces;font-size:22px">–</b></div>
+        <input type="range" id="simR" min="0" max="400" step="5" value="100" aria-label="Total profit distributed">
+        <div class="split"><div class="k" id="simK">K3</div><div class="m" id="simM">MF</div></div>
+        <div class="simrow"><span>K3 receives<br><b id="simKv">–</b></span><span>Mega Farmer receives<br><b id="simMv">–</b></span></div>
+        <span class="phase" id="simPh"></span>
+      </div>
+    </div>
+    <div class="pflow rv">
+      <div class="pnode glass"><span class="k">01</span><b>Revenue</b><small>From all three streams: fertilisers, clean &amp; organic produce, and microbial cultures</small></div>
+      <div class="plink"></div>
+      <div class="pnode glass"><span class="k">02</span><b>Gross profit</b><small>After production, raw materials, bottling and packaging</small></div>
+      <div class="plink"></div>
+      <div class="pnode glass"><span class="k">03</span><b>Net profit</b><small>After operating costs, including the BIOSO team, and tax</small></div>
+      <div class="plink"></div>
+      <div class="pnode glass"><span class="k">04</span><b>Annual split</b><div class="chips2"><em>50% retained for growth</em><em class="g">50% distributed</em></div></div>
+      <div class="plink"></div>
+      <div class="pnode glass final"><span class="k">05</span><b>Distribution to partners</b><div class="duo"><div><small>Until K3’s capital is recovered</small><div class="bar7"><i style="flex:7">K3 70%</i><i style="flex:3">MF 30%</i></div></div><div><small>After recovery</small><div class="bar7"><i style="flex:5">K3 50%</i><i style="flex:5">MF 50%</i></div></div></div></div>
+    </div>
+    <p class="note">Planning estimates, not guarantees: gross margins ~65% on fertilisers, 25% on produce, 60% on cultures; tax 29%. Operating costs include the BIOSO team. Until K3’s capital is recovered, distributions are split 70/30 in K3’s favour.</p>
+  </div>
+</section>
+
+<!-- GCC -->
+<section id="gcc" class="alt" data-name="GCC">
+  <div class="wrap">
+    <span class="eyebrow rv">GCC expansion</span>
+    <h2 class="rv d1">Desert soils and food-security budgets — <span class="soil">the Gulf is built for BIOSO.</span></h2>
+    <div class="grid2">
+      <p class="rv d2">The Gulf imports most of its food, farms on sandy, saline soil under extreme heat and is spending heavily on food security — exactly the problem BIOSO’s desert range was designed to solve. A Pakistani plant with Gulf registrations becomes a low-cost supplier to a market growing over eleven per cent a year, and a supplier of clean-grown produce to the Gulf’s import-dependent retailers.</p>
+      <p class="rv d3">The route: register the products in Pakistan, then in the UAE and the other GCC states; appoint a Gulf distributor; and, as volumes grow, open a Gulf entity that can access local grants and soft loans. Gulf funding can grow the export business without diluting either partner.</p>
+    </div>
+    <div class="glass mapcard rv hudc">
+      <span class="hudlabel">ROUTES TO MARKET · FROM KASUR</span>
+      <svg viewBox="0 60 900 280" id="routeMap">
+        <defs><radialGradient id="mfade" cx=".6" cy=".45" r=".65"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient><mask id="mm"><rect width="900" height="380" fill="url(#mfade)"/></mask><linearGradient id="ag" x1="0" x2="1"><stop offset="0" stop-color="#8CFF5A"/><stop offset="1" stop-color="#C9A15B"/></linearGradient></defs>
+        <g id="dotgrid" mask="url(#mm)"></g>
+        <g fill="none" stroke="url(#ag)" stroke-width="1.8">
+          <path class="arc" id="r1" d="M700 170 Q 405 30 110 150"/>
+          <path class="arc" id="r2" d="M700 170 Q 560 30 400 95"/>
+          <path class="arc" id="r3" d="M700 170 Q 670 180 626 222"/>
+          <path class="arc" id="r4" d="M700 170 Q 630 160 552 252"/>
+          <path class="arc" id="r5" d="M700 170 Q 640 145 584 194"/>
+          <path class="arc" id="r6" d="M700 170 Q 700 210 670 260"/>
+        </g>
+        <g fill="#8CFF5A">
+          <circle r="4"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#r1"/></animateMotion></circle>
+          <circle r="4"><animateMotion dur="3.6s" repeatCount="indefinite"><mpath href="#r2"/></animateMotion></circle>
+          <circle r="3.5"><animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#r3"/></animateMotion></circle>
+          <circle r="3.5"><animateMotion dur="2.6s" begin=".6s" repeatCount="indefinite"><mpath href="#r4"/></animateMotion></circle>
+          <circle r="3.5"><animateMotion dur="2.4s" begin="1s" repeatCount="indefinite"><mpath href="#r5"/></animateMotion></circle>
+          <circle r="3.5"><animateMotion dur="2.3s" begin=".3s" repeatCount="indefinite"><mpath href="#r6"/></animateMotion></circle>
+        </g>
+        <g id="mnodes"></g>
+      </svg>
+    </div>
+    <div class="tabs rv" id="gccTabs"><button class="on" data-c="gov">Government &amp; sovereign</button><button data-c="bank">Development banks</button><button data-c="vc">VC &amp; strategic</button><button data-c="angel">Angels</button><button data-c="pk">Pakistan–GCC bridge</button></div>
+    <div class="funders" id="funders"></div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section id="impact" data-name="Impact">
+  <div class="wrap">
+    <span class="eyebrow rv">Climate &amp; sustainability</span>
+    <h2 class="rv d1">A climate-tech business for a <span class="hl">greener, healthier Pakistan.</span></h2>
+    <div class="grid3" style="margin-top:30px">
+      <div class="card rv"><div class="ic">🌫️</div><h3>Cleaner air</h3><p>Turning rice husk and straw into raw material gives farmers a reason not to burn, cutting the smog over Lahore.</p></div>
+      <div class="card rv d1"><div class="ic">🌍</div><h3>Lower emissions</h3><p>Every bag of urea replaced avoids the gas used to make it and cuts nitrous oxide from the field.</p></div>
+      <div class="card rv d2"><div class="ic">🥬</div><h3>Less food wasted</h3><p>Pre-booked buy-back contracts mean fewer harvests dumped on the roadside when prices crash.</p></div>
+      <div class="card rv"><div class="ic">💧</div><h3>Water saved</h3><p>Living soil absorbs and holds water — critical under shrinking canal supplies and on Gulf desert farms.</p></div>
+      <div class="card rv d1"><div class="ic">🐄</div><h3>Fewer imports</h3><p>Local silage inoculants and probiotics replace imported cultures and keep foreign exchange at home.</p></div>
+      <div class="card rv d2"><div class="ic">🎯</div><h3>Aligned with SDGs</h3><p>Zero hunger, clean water, climate action and life on land; Green Pakistan and Gulf food-security strategies.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap" class="alt" data-name="Roadmap">
+  <div class="wrap">
+    <span class="eyebrow rv">Roadmap</span>
+    <h2 class="rv d1">From signature to <span class="hl">three income streams</span> — step by step.</h2>
+    <div class="rmgrid"><div class="tl" id="tl"><div class="fill" id="tlFill"></div>
+      <div class="step rv"><span class="when">STEP 01</span><h3>Agree &amp; sign</h3><p>Proposal accepted; MoU, NDA, MTA, technology transfer and manufacturing agreements signed; first BIOSO Fund budget approved.</p></div>
+      <div class="step rv"><span class="when">STEP 02</span><h3>Build the production unit &amp; lab</h3><p>Drums, machinery and laboratory installed at K3; mother-culture library established; K3 production team trained.</p></div>
+      <div class="step rv"><span class="when">STEP 03</span><h3>Test, register &amp; launch</h3><p>Every product tested and registered; first commercial batches; demonstration on K3’s corn and partner farms; first dealers signed.</p></div>
+      <div class="step rv"><span class="when">STEP 04</span><h3>BIOSO silage inoculant</h3><p>First locally produced inoculant used in K3’s own silage, then offered to silage makers and dairy farms.</p></div>
+      <div class="step rv"><span class="when">STEP 05</span><h3>First buy-back season</h3><p>Pre-booked contracts with BIOSO farmers; clean-grown produce launched in modern retail; dealer network across Punjab.</p></div>
+      <div class="step rv"><span class="when">STEP 06</span><h3>Gulf &amp; more cultures</h3><p>GCC registrations and exports; poultry probiotic and industrial culture products launched.</p></div>
+      <div class="step rv"><span class="when">STEP 07</span><h3>Certified organic &amp; leadership</h3><p>Organic certification for EU and US exports, national leadership in biological inputs, and a growing culture business.</p></div>
+    </div>
+    <div class="glass rmviz hudc rv">
+      <span class="hudlabel">ONE ROOT · THREE STREAMS</span>
+      <svg viewBox="0 0 400 440">
+        <defs><linearGradient id="tr" x1="0" x2="0" y1="1" y2="0"><stop offset="0" stop-color="#C9A15B"/><stop offset="1" stop-color="#8CFF5A"/></linearGradient></defs>
+        <rect x="20" y="360" width="360" height="60" rx="10" fill="rgba(201,161,91,.12)"/>
+        <g stroke="#e9d8a6" stroke-width="1.6" fill="none" opacity=".6"><path class="grow" d="M200 360 C 190 390 160 400 120 415"/><path class="grow" d="M200 360 C 210 392 245 402 290 414" style="animation-delay:.3s"/><path class="grow" d="M200 360 C 200 385 196 400 200 420" style="animation-delay:.6s"/></g>
+        <path class="grow" d="M200 360 C 200 300 200 260 200 200" stroke="url(#tr)" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path class="grow" d="M200 250 C 160 230 120 200 90 150" stroke="url(#tr)" stroke-width="4" fill="none" stroke-linecap="round" style="animation-delay:.5s"/>
+        <path class="grow" d="M200 230 C 240 210 280 180 310 130" stroke="url(#tr)" stroke-width="4" fill="none" stroke-linecap="round" style="animation-delay:.7s"/>
+        <path class="grow" d="M200 200 C 200 160 200 120 200 80" stroke="url(#tr)" stroke-width="4" fill="none" stroke-linecap="round" style="animation-delay:.9s"/>
+        <g class="leafp" style="animation-delay:.2s"><circle cx="90" cy="140" r="34" fill="rgba(201,161,91,.18)" stroke="#C9A15B"/><text x="90" y="148" text-anchor="middle" font-size="24">🧺</text></g>
+        <g class="leafp" style="animation-delay:.4s"><circle cx="310" cy="120" r="34" fill="rgba(150,190,255,.15)" stroke="#96beff"/><text x="310" y="128" text-anchor="middle" font-size="24">🧫</text></g>
+        <g class="leafp" style="animation-delay:.6s"><circle cx="200" cy="66" r="38" fill="rgba(140,255,90,.15)" stroke="#8CFF5A"/><text x="200" y="75" text-anchor="middle" font-size="26">🌱</text></g>
+        <text x="90" y="196" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-weight="600" font-size="14">Produce</text>
+        <text x="310" y="176" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-weight="600" font-size="14">Cultures</text>
+        <text x="200" y="20" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-weight="600" font-size="14">Fertilisers</text>
+        <text x="200" y="395" text-anchor="middle" fill="#C9A15B" font-family="JetBrains Mono" font-size="12" letter-spacing="3">BIOSO · K3 KASUR</text>
+      </svg>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- AGREEMENTS -->
+<section id="agreements" data-name="Agreements">
+  <div class="wrap">
+    <span class="eyebrow rv">How we will formalise the partnership</span>
+    <h2 class="rv d1">Clear commitments. <span class="hl">Protected science.</span></h2>
+    <p class="lead rv d2">Once K3 accepts this proposal, both partners will sign the agreements required to put it into effect. The detailed terms will be finalised together with both companies’ advisers.</p>
+    <div class="agree">
+      <div class="card rv"><span class="tag">MoU</span><h3>Memorandum of Understanding</h3><p>Records the partnership, the 50/50 ownership of the BIOSO line, the BIOSO Fund, the three streams and the 70% priority return to K3.</p></div>
+      <div class="card rv d1"><span class="tag">NDA</span><h3>Non-Disclosure Agreement</h3><p>Keeps all technical and commercial information shared between the partners confidential.</p></div>
+      <div class="card rv d2"><span class="tag">MTA</span><h3>Material Transfer Agreement</h3><p>Governs the strains, mother cultures and biological materials used at K3, which remain Mega Farmer’s property.</p></div>
+      <div class="card rv"><span class="tag">TTA</span><h3>Technology Transfer Agreement</h3><p>Sets out how BIOSO technology is applied in the production line at K3 under Mega Farmer’s technical leadership.</p></div>
+      <div class="card rv d1"><span class="tag">IP</span><h3>IP Ownership &amp; Assignment</h3><p>Confirms that formulations and recipes remain Mega Farmer’s, and how jointly built brand and market assets are shared.</p></div>
+      <div class="card rv d2"><span class="tag">MA</span><h3>Manufacturing Agreement</h3><p>Covers production at K3, quality, the BIOSO Fund, mutual exclusivity and the roles of both teams.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="alt" data-name="Contact">
+  <svg class="roots" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><defs><linearGradient id="rg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#8CFF5A"/><stop offset="1" stop-color="#C9A15B" stop-opacity=".3"/></linearGradient></defs>
+    <path d="M600 0 C 600 120 560 200 480 280 C 400 360 320 400 200 480 C 140 520 80 560 0 600"/>
+    <path d="M600 0 C 610 140 660 220 740 300 C 820 380 920 420 1040 500 C 1100 540 1160 570 1200 600" style="animation-delay:1s"/>
+    <path d="M600 60 C 560 180 520 300 540 420 C 550 500 520 560 500 600" style="animation-delay:2s"/>
+    <path d="M600 60 C 650 200 700 320 680 440 C 670 520 700 570 720 600" style="animation-delay:.5s"/>
+    <path d="M480 280 C 420 250 360 270 300 240 C 240 210 180 230 120 200" style="animation-delay:1.5s"/>
+    <path d="M740 300 C 800 270 860 290 920 260 C 980 230 1040 250 1100 220" style="animation-delay:2.5s"/>
+  </svg>
+  <div class="wrap">
+    <span class="eyebrow rv" style="justify-content:center">Next step</span>
+    <h2 class="rv d1">Pakistan doesn’t need another fertiliser. <span class="hl">It needs its soil back.</span></h2>
+    <p class="lead rv d2">Let’s build BIOSO together as equal partners. On acceptance, we will agree the first BIOSO Fund budget and the team’s monthly funding, finalise the production unit list with K3’s suppliers, and sign the partnership agreements.</p>
+    <div class="ctas rv d3">
+      <a class="btn" href="mailto:contact@megafarmer.store?subject=Mega%20Farmer%20%C3%97%20K3%20Agro%20%E2%80%94%20BIOSO%20partnership">Email us</a>
+      <a class="btn ghost" href="https://wa.me/923214999759" target="_blank" rel="noopener">WhatsApp +92 321 4999759</a>
+      <a class="btn ghost" href="https://megafarmer.store/" target="_blank" rel="noopener">megafarmer.store</a>
+      <button class="btn ghost" onclick="window.print()">Print / save PDF</button>
+    </div>
+    <div class="contacts rv">
+      <div class="ccard glass hudc"><img src="assets/megafarmer-logo.webp" alt="Mega Farmer BIOSO" class="clogo"><span class="hudlabel">FOR MEGA FARMER BIOSO™</span><h3>Ch. Umair Ashraf</h3><p class="role">Founder &amp; CEO · Technical Director, BIOSO</p><p>Xelora Industries (Pvt) Ltd, Lahore<br><a href="mailto:contact@megafarmer.store">contact@megafarmer.store</a><br><a href="https://wa.me/923214999759" target="_blank" rel="noopener">+92 321 4999759</a> · <a href="https://megafarmer.store/" target="_blank" rel="noopener">megafarmer.store</a></p></div>
+      <div class="ccard glass hudc k"><img src="assets/k3-logo.png" alt="K3 Agro Solutions" class="clogo round"><span class="hudlabel" style="color:var(--soil)">FOR K3 AGRO SOLUTIONS (PVT.) LIMITED</span><h3>Muhammad Khan</h3><p class="role">Chief Operating Officer</p><p>Head office: near Bhatti Hospital, opposite Total Parco Petrol Pump, Kasur<br><a href="mailto:k3chiefoperatingofficer@gmail.com">k3chiefoperatingofficer@gmail.com</a><br>Mob <a href="tel:+923244272455">+92 324 4272455</a> · Tel <a href="tel:+92492724221">049-2724221</a>, <a href="tel:+92492724241">049-2724241</a><br><a href="https://www.k3agrosolutions.com" target="_blank" rel="noopener">www.k3agrosolutions.com</a></p></div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="flogos"><img src="assets/megafarmer-logo.webp" alt="Mega Farmer BIOSO"><span>×</span><img src="assets/k3-logo.png" alt="K3 Agro Solutions" class="round"></div>© Mega Farmer · BIOSO™ · Xelora Industries PVT LTD. Confidential proposal prepared for K3 Agro Solutions (Pvt.) Limited, attention Mr. Muhammad Khan, Chief Operating Officer. Living Soil. Living Plants. Better Food.</footer>
+<script>
+(function(){
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+addEventListener('load',()=>setTimeout(()=>$('#loader').classList.add('done'),RM?0:1500));
+setTimeout(()=>$('#loader').classList.add('done'),4000);
+
+/* products */
+const P=[["Soil-Revive 7-in-1","soil","Soil foundation: revives dead, saline and desert soil and rebuilds organic matter."],["Root-Force Ultra","soil","Seed, nursery and transplant root establishment."],["MegaGrow-X","veg","Vegetative growth through biological nitrogen fixation."],["Super Nano Amino 50%","veg","Foliar amino-acid booster for fast recovery and growth."],["Yield-Max Pro","rep","Flowering, fruiting and grain fill."],["Flower-King Elite","rep","Flower initiation and flower retention."],["Fruit-Boost Supreme","rep","Fruit size, colour, sweetness and quality."],["Potash-SOP 3X Liquid","rep","Biological potassium supply."],["Immuno-Shield Defense","shield","Disease and pest defence through beneficial microbes."],["Ultra Silicon Booster","shield","Cell strength and tolerance to stress and lodging."],["Calcium + Magnesium Power Mix","veg","Strong cell walls and healthy chlorophyll."],["MicroFoliar Plus","veg","Corrects zinc, iron, boron and manganese deficiency."],["Stress Shield Se + Si","shield","Defence against heat, drought and salinity."],["Nano-Micro Spray","shield","Nano-scale micronutrient efficiency."]];
+const SN={soil:"Soil & root",veg:"Vegetative",rep:"Flower & fruit",shield:"Protection"};
+$('#prods').innerHTML=P.map((p,i)=>`<div class="prod rv" data-s="${p[1]}" style="transition-delay:${(i%4)*.06}s"><span class="n">${String(i+1).padStart(2,'0')}</span><span class="st">${SN[p[1]]}</span><h4>${p[0]}</h4><p>${p[2]}</p></div>`).join('');
+$$('#stageBtns button').forEach(b=>b.onclick=()=>{$$('#stageBtns button').forEach(x=>x.classList.toggle('on',x===b));const s=b.dataset.s;$$('.prod').forEach(p=>p.classList.toggle('dim',s!=='all'&&p.dataset.s!==s));});
+
+/* tanks */
+const T=$('#tanks');for(let i=0;i<15;i++){const k=i<10?'':i<13?'blend':'hold';const lb=i<10?'FERM '+(i+1):i<13?'BLEND':'HOLD';let bubs='';for(let j=0;j<4;j++)bubs+=`<span class="bub" style="left:${15+j*20}%;animation-delay:${(j*.7+i*.13).toFixed(2)}s"></span>`;T.insertAdjacentHTML('beforeend',`<div class="tank ${k} rv" style="transition-delay:${i*.04}s"><label>${lb}</label><div class="liq" data-h="${70+((i*37)%25)}"></div>${k===''?bubs:''}</div>`);}
+
+/* revenue chart */
+const REV=[[25,0,0],[80,10,15],[220,40,50],[500,100,120],[980,220,250]],COL=['#8CFF5A','#C9A15B','#96beff'];
+(function(){const W=520,H=330,l=40,b=290,top=40,bw=56,max=1450;let s=`<line x1="${l}" x2="${W-10}" y1="${b}" y2="${b}" stroke="rgba(255,255,255,.18)"/>`;
+REV.forEach((r,i)=>{const x=l+20+i*92;let acc=0;r.forEach((v,j)=>{const h=v/max*(b-top);s+=`<rect class="bar" data-y="${b-acc-h}" data-h="${h}" x="${x}" y="${b}" width="${bw}" height="0" rx="3" fill="${COL[j]}"><title>Mega Farmer BIOSO™ × K3 Agro Solutions — Joint Venture Proposal</title></rect>`;acc+=h;});const t=r[0]+r[1]+r[2];s+=`<text class="val" x="${x+bw/2}" y="${b-acc-10}" text-anchor="middle" opacity="0" data-fade="1">${t>=1000?(t/1000).toFixed(2)+' bn':t+' m'}</text><text x="${x+bw/2}" y="${b+22}" text-anchor="middle">Year ${i+1}</text>`;});
+$('#revChart').innerHTML=s;})();
+/* net profit chart */
+(function(){const NP=[0,16,62,166,353],W=520,b=290,top=40,l=40,max=380,bw=56;let s=`<line x1="${l}" x2="${W-10}" y1="${b}" y2="${b}" stroke="rgba(255,255,255,.18)"/>`;
+NP.forEach((v,i)=>{const x=l+20+i*92,h=v/max*(b-top),hh=h/2;s+=`<rect class="bar" data-y="${b-h}" data-h="${h}" x="${x}" y="${b}" width="${bw}" height="0" rx="3" fill="#3DDC84" fill-opacity=".85"><title>Mega Farmer BIOSO™ × K3 Agro Solutions — Joint Venture Proposal</title></rect>`;
+if(v>0)s+=`<line x1="${x-4}" x2="${x+bw+4}" y1="${b-hh}" y2="${b-hh}" stroke="#C9A15B" stroke-width="2" stroke-dasharray="4 3"><title>Mega Farmer BIOSO™ × K3 Agro Solutions — Joint Venture Proposal</title></line>`;
+s+=`<text class="val" x="${x+bw/2}" y="${b-h-10}" text-anchor="middle" opacity="0" data-fade="1">${v?v+' m':'≈0'}</text><text x="${x+bw/2}" y="${b+22}" text-anchor="middle">Year ${i+1}</text>`;});
+$('#npChart').innerHTML=s;})();
+/* simulator */
+const sim=()=>{const cap=(+$('#capR').value)/10,D=+$('#simR').value,th=cap/0.7;let k,m;if(D<=th){k=.7*D;m=.3*D;}else{k=cap+.5*(D-th);m=.3*th+.5*(D-th);}
+$('#capT').textContent='Rs '+$('#capR').value+' lakh';$('#simTot').textContent='Rs '+D+' m';$('#simKv').textContent='Rs '+k.toFixed(1)+' m';$('#simMv').textContent='Rs '+m.toFixed(1)+' m';
+const kp=D?k/D*100:70;$('#simK').style.flexBasis=kp+'%';$('#simM').style.flexBasis=(100-kp)+'%';$('#simK').textContent='K3 '+Math.round(kp)+'%';$('#simM').textContent='MF '+Math.round(100-kp)+'%';
+const ph=$('#simPh');if(D<=th){ph.textContent='Recovery phase: 70% to K3 · Rs '+(cap-k).toFixed(1)+' m still to recover';ph.style.background='rgba(201,161,91,.18)';ph.style.color='#C9A15B';}else{ph.textContent='✓ K3 capital recovered — now sharing 50 / 50';ph.style.background='rgba(140,255,90,.14)';ph.style.color='#8CFF5A';}};
+$('#simR').addEventListener('input',sim);$('#capR').addEventListener('input',sim);sim();
+
+/* price builder */
+const BC=['#8CFF5A','#3DDC84','#6fb38a','#C9A15B','#e6d29a','#96beff'],BL=['Production','Packaging','Labour & QC','Delivery','Profit','Dealer'];
+const build=()=>{const v=[0,1,2,3,4,5,6].map(i=>+$('#b'+i).value);['o0','o1','o2','o3','o4'].forEach((o,i)=>$('#'+o).textContent='Rs '+v[i]);$('#o5').textContent=v[5]+'%';$('#o6').textContent=v[6]+' L';
+const ex=v[0]+v[1]+v[2]+v[3]+v[4],dealer=ex*v[5]/100,fp=ex+dealer,parts=[v[0],v[1],v[2],v[3],v[4],dealer];
+$('#stack').innerHTML=parts.map((p,i)=>`<div style="flex-basis:${p/fp*100}%;background:${BC[i]}" title="${BL[i]}: Rs ${p.toFixed(0)}"></div>`).join('');
+$('#fp').textContent='Rs '+Math.round(fp);const pa=fp*v[6];$('#pa').textContent='Rs '+Math.round(pa).toLocaleString('en-US');
+const half=28250*0.5;$('#cmp').innerHTML=`Season 1 example: 50% of the usual Rs 28,250 of urea + DAP (Rs ${half.toLocaleString('en-US')}) plus BIOSO at Rs ${Math.round(pa).toLocaleString('en-US')} = <b style="color:#8CFF5A">Rs ${Math.round(half+pa).toLocaleString('en-US')}</b> per acre — a saving of Rs ${Math.round(28250-half-pa).toLocaleString('en-US')}. Margin to the partnership: Rs ${v[4]} per litre. All figures are adjustable assumptions.`;};
+[0,1,2,3,4,5,6].forEach(i=>$('#b'+i).addEventListener('input',build));build();
+
+/* petri colonies */
+(function(){const g=$('#colonies');let s='';const C=['#8CFF5A','#3DDC84','#e9d8a6','#C9A15B','#96beff','#f2f2e6'];for(let i=0;i<34;i++){const a=Math.random()*Math.PI*2,r=Math.sqrt(Math.random())*150,x=200+r*Math.cos(a),y=200+r*Math.sin(a),rad=4+Math.random()*16,c=C[i%C.length];s+=`<circle class="colony" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${rad.toFixed(1)}" fill="${c}" fill-opacity=".55" stroke="${c}" stroke-width="1.2" style="animation-delay:${(Math.random()*4).toFixed(2)}s;animation-duration:${(3+Math.random()*3).toFixed(1)}s;animation-direction:alternate;animation-iteration-count:infinite"/>`;}g.innerHTML=s;})();
+
+/* loop */
+const L=[["Enrol","The farmer signs a season contract and receives the Bioso programme for his crop with field advice."],["Grow","Our agronomists visit through the season, record every input and track crop health — full traceability per field."],["Pre-book","The purchase is agreed before harvest at mandi rate + Rs 5–10 per kg, paid within a week of delivery."],["Test","Every lot is tested for pesticide residue, heavy metals and microbial safety and gets its own certificate."],["Pack","Graded and packed in Kasur, labelled MegaFarmer Clean-Grown with a QR code showing where and how it was grown."],["Sell","To supermarkets, online grocers, hotels and Gulf importers. Farmers are paid mandi rate + Rs 5–10 per kg; the premium label carries the margin."]];
+(function(){const cx=280,cy=280,r=200;let s=`<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="rgba(140,255,90,.18)" stroke-width="2"/><circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#8CFF5A" stroke-width="3" stroke-dasharray="60 1196" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0 ${cx} ${cy}" to="360 ${cx} ${cy}" dur="12s" repeatCount="indefinite"/></circle><text x="${cx}" y="${cy-8}" text-anchor="middle" fill="#EEF4E6" font-family="Fraunces" font-size="28">Living soil</text><text x="${cx}" y="${cy+22}" text-anchor="middle" fill="#9DB3A2" font-family="Inter" font-size="15">to a premium shelf</text>`;
+L.forEach((n,i)=>{const a=-Math.PI/2+i*2*Math.PI/L.length,x=cx+r*Math.cos(a),y=cy+r*Math.sin(a);s+=`<g class="loopnode" data-i="${i}" tabindex="0"><circle cx="${x}" cy="${y}" r="44" fill="#0e2017" stroke="#8CFF5A" stroke-width="2"/><text x="${x}" y="${y-4}" text-anchor="middle" fill="#8CFF5A" font-family="JetBrains Mono" font-size="12">0${i+1}</text><text x="${x}" y="${y+16}" text-anchor="middle" fill="#EEF4E6" font-family="Inter" font-weight="600" font-size="15">${n[0]}</text></g>`;});
+$('#loopSvg').innerHTML=s;let cur=0,auto=true;const show=i=>{cur=i;$$('.loopnode').forEach(g=>g.classList.toggle('on',+g.dataset.i===i));$('#loopInfo').innerHTML=`<h3>0${i+1} · ${L[i][0]}</h3><p>${L[i][1]}</p>`;};
+$$('.loopnode').forEach(g=>{const f=()=>{auto=false;show(+g.dataset.i)};g.addEventListener('click',f);g.addEventListener('keydown',e=>{if(e.key==='Enter')f()});});
+show(0);setInterval(()=>{if(auto)show((cur+1)%L.length)},3200);})();
+
+/* GCC funders */
+const G={gov:[["UAE","ADIO — AgTech Incentive Programme","AED 1 bn agtech incentive programme; negotiated support for companies setting up in Abu Dhabi.","https://www.investinabudhabi.ae/"],["UAE","Hub71+ ClimateTech","Up to AED 750k cash and in-kind support for climate-tech start-ups basing a founder in Abu Dhabi.","https://www.hub71.com/program/hub71-plus-climatetech"],["UAE","Food Tech Valley","Agri-food innovation hub under the UAE Food Security Strategy 2051.","https://www.foodtechvalley.ae/"],["UAE","MOCCAE","Food-security policy and fertiliser registration (5-year certificate).","https://site.moccae.gov.ae/en/services/registration-of-fertilizers-and-agricultural-conditioners"],["UAE","ADQ / Silal","Sovereign food cluster; Silal is a major grower and distributor — an offtake partner.","https://www.silal.ae/"],["Saudi Arabia","Agricultural Development Fund","Soft and interest-free agricultural loans, including agri-inputs and food security.","https://adf.gov.sa/"],["Saudi Arabia","Saudi Green Initiative","National land-restoration and sustainable-farming agenda.","https://www.sgi.gov.sa/"],["Saudi Arabia","NEOM — Food sector","Sustainable-agriculture projects partnering with input suppliers.","https://www.neom.com/en-us/our-business/sectors/food"],["Qatar","Qatar Development Bank","Up to 80% of agri project cost at 1–5%, up to 15 years.","https://www.qdb.qa/financing-and-funding/direct-financing/agriculture-projects"],["Qatar","QRDI Council","Research and innovation grants including food security.","https://qrdi.org.qa/en-US/"],["Qatar","Hassad Food","Sovereign food-security investor and partner.","https://www.hassad.com/"],["Oman","Future Fund Oman / Nitaj","RO 2 bn fund; Nitaj runs Oman’s food-security portfolio.","https://www.futurefund.om/"],["Bahrain","Tamkeen","SME financing support and accelerator.","https://www.tamkeen.bh/en/programs/"],["Kuwait","National Fund for SMEs","SME finance and incubation.","https://nationalfund.gov.kw/en/"]],
+bank:[["Multilateral","IsDB — Transform Fund","US$500 m innovation fund; food security is a priority and Pakistan is eligible — we can apply now.","https://www.isdb.org/partnership/engage-and-transform"],["UAE","Emirates Development Bank","Dedicated AgriTech loans for UAE-based food-security companies.","https://edb.gov.ae/solutions/agritech-loans"],["Saudi Arabia","Saudi SME Bank","SME finance for Saudi-registered companies.","https://smebank.gov.sa/en"]],
+vc:[["UAE","Agthia Ventures","AED 200 m agrifood-tech fund including farm sustainability — strongest fit.","https://www.agthia.com/en"],["Saudi Arabia","SALIC","Sovereign agri investor; strategic and offtake partner.","https://www.salic.com/"],["UAE","Global Ventures","Emerging-markets VC with food-resilience interest.","https://www.global.vc/"],["UAE","Shorooq Partners","Venture equity and venture debt.","https://www.shorooq.com/"],["UAE","BECO Capital","Gulf early-to-growth stage VC.","https://www.becocapital.com/"],["Saudi Arabia","Sanabil Investments","PIF-backed investor and accelerator programmes.","https://www.sanabil.com/en/"],["Saudi Arabia","Wa’ed Ventures","Aramco’s VC: deep tech and sustainability.","https://waed.net/en/"],["UAE / KSA","MEVP","Regional venture capital.","https://mevp.com/"],["Global","AgFunder","Agrifood-tech specialist VC covering MENA.","https://agfunder.com/"]],
+angel:[["UAE","Dubai Angel Investors","Early-stage MENA angel network.","https://www.dubaiangelinvestors.me/"],["Saudi Arabia","Riyadh Angel Investors","Saudi executives investing at seed stage.","https://rai.t2.sa/"],["UAE","WOMENA","Angel platform and accelerator.","https://womena.com/"]],
+pk:[["Pakistan","SIFC — Special Investment Facilitation Council","One window for Saudi, UAE and Qatari investment in Pakistani corporate farming.","https://sifc.gov.pk/"],["Pakistan","Green Pakistan Initiative","Large new GCC-backed corporate farms on sandy land — a direct B2B market for Bioso.","https://www.arabnews.pk/node/2378411/business-economy"]]};
+const showG=c=>{$('#funders').innerHTML=G[c].map((f,i)=>`<div class="funder" style="animation-delay:${i*.05}s"><span class="c">${f[0]}</span><h4>${f[1]}</h4><p>${f[2]}</p><a href="${f[3]}" target="_blank" rel="noopener">Visit ↗</a></div>`).join('');};
+$$('#gccTabs button').forEach(b=>b.onclick=()=>{$$('#gccTabs button').forEach(x=>x.classList.toggle('on',x===b));showG(b.dataset.c);});showG('gov');
+
+/* soil slider */
+const box=$('#soilbox'),live=box.querySelector('.live'),hd=$('#handle');
+const bugsG=document.getElementById('bugs');let bh='';for(let i=0;i<46;i++){const x=40+Math.random()*920,y=140+Math.random()*270,rod=Math.random()>.5,c=['#8CFF5A','#3DDC84','#e9d8a6','#C9A15B'][i%4];bh+=rod?`<rect class="microbe" x="${x}" y="${y}" width="12" height="5" rx="2.5" fill="${c}" opacity=".85" style="animation-delay:${(Math.random()*5).toFixed(2)}s;transform-box:fill-box"/>`:`<circle class="microbe" cx="${x}" cy="${y}" r="${2+Math.random()*3}" fill="${c}" opacity=".8" style="animation-delay:${(Math.random()*5).toFixed(2)}s"/>`;}bugsG.innerHTML=bh;
+const setP=p=>{p=Math.max(0,Math.min(100,p));live.style.clipPath=`inset(0 0 0 ${p}%)`;hd.style.left=p+'%';};
+let drag=false;const mv=e=>{if(!drag)return;const r=box.getBoundingClientRect();const cx=(e.touches?e.touches[0].clientX:e.clientX);setP((cx-r.left)/r.width*100);};
+box.addEventListener('pointerdown',e=>{drag=true;mv(e)});addEventListener('pointermove',mv);addEventListener('pointerup',()=>drag=false);
+let swept=false;
+
+/* counters */
+const count=el=>{const to=+el.dataset.count,dec=+(el.dataset.dec||0),pre=el.dataset.pre||'',suf=el.dataset.suf||'';const t0=performance.now(),dur=RM?0:1800;const f=t=>{const k=Math.max(0,Math.min(1,(t-t0)/(dur||1))),e=1-Math.pow(1-k,3);el.textContent=pre+(to*e).toFixed(dec)+suf;if(k<1)requestAnimationFrame(f)};requestAnimationFrame(f);};
+
+/* observer */
+const io=new IntersectionObserver(es=>es.forEach(en=>{if(!en.isIntersecting)return;const el=en.target;el.classList.add('in');
+ el.querySelectorAll&&el.querySelectorAll('[data-count]').forEach(c=>{if(!c.dataset.done){c.dataset.done=1;count(c)}});
+ if(el.id==='seasons')el.querySelectorAll('[data-w]').forEach(b=>b.style.width=b.dataset.w+'%');
+ if(el.classList.contains('tank'))el.querySelector('.liq').style.height=el.querySelector('.liq').dataset.h+'%';
+ if(el.id==='soilbox'&&!swept){swept=true;el.classList.add('on');if(!RM){let p=95;setP(p);const a=()=>{p-=1.2;setP(p);if(p>50)requestAnimationFrame(a)};setTimeout(a,400);}}
+ if(el.querySelector&&(el.querySelector('#revChart')||el.querySelector('#npChart'))){el.querySelectorAll('.chart .bar').forEach((r,i)=>setTimeout(()=>{const ty=+r.dataset.y,th=+r.dataset.h,y0=ty+th,t0=performance.now();const f=t=>{const k=Math.max(0,Math.min(1,(t-t0)/1300)),e=1-Math.pow(1-k,3);r.setAttribute('height',th*e);r.setAttribute('y',y0-th*e);if(k<1)requestAnimationFrame(f)};requestAnimationFrame(f)},i*60));setTimeout(()=>el.querySelectorAll('[data-fade]').forEach(t=>{t.style.transition='opacity .8s';t.setAttribute('opacity',1)}),1200);}
+ io.unobserve(el);}),{threshold:.18});
+$$('.rv,#seasons,#soilbox').forEach(e=>io.observe(e));
+/* revenue bars animate via attribute; ensure CSS transition works on SVG attrs fallback */
+
+/* nav, progress, dots, timeline */
+const secs=$$('section[data-name]');$('#dots').innerHTML=secs.map(s=>`<a href="#${s.id}"><span>${s.dataset.name}</span></a>`).join('');
+const dots=$$('#dots a');
+const onS=()=>{const y=scrollY,h=document.documentElement.scrollHeight-innerHeight;$('#bar').style.width=(y/h*100)+'%';$('#nav').classList.toggle('solid',y>40);
+ let i=0;secs.forEach((s,k)=>{if(s.getBoundingClientRect().top<innerHeight*.45)i=k});dots.forEach((d,k)=>d.classList.toggle('on',k===i));
+ const tl=$('#tl').getBoundingClientRect();const p=Math.max(0,Math.min(1,(innerHeight*.6-tl.top)/tl.height));$('#tlFill').style.height=(p*100)+'%';};
+addEventListener('scroll',onS,{passive:true});onS();
+
+/* hero microbe canvas */
+const cv=$('#microbes'),cx=cv.getContext('2d');let W,H,pts=[],mouse={x:-999,y:-999};
+const rs=()=>{W=cv.width=cv.offsetWidth*devicePixelRatio;H=cv.height=cv.offsetHeight*devicePixelRatio;const n=Math.min(110,Math.floor(W*H/(16000*devicePixelRatio*devicePixelRatio)));pts=Array.from({length:n},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.35*devicePixelRatio,vy:(Math.random()-.5)*.35*devicePixelRatio,r:(1+Math.random()*2.6)*devicePixelRatio,rod:Math.random()>.6,a:Math.random()*Math.PI,c:Math.random()>.82?'201,161,91':(Math.random()>.5?'140,255,90':'61,220,132')}));};
+rs();addEventListener('resize',rs);
+cv.parentElement.addEventListener('pointermove',e=>{const r=cv.getBoundingClientRect();mouse.x=(e.clientX-r.left)*devicePixelRatio;mouse.y=(e.clientY-r.top)*devicePixelRatio;});
+const LD=130*devicePixelRatio;
+const loop=()=>{cx.clearRect(0,0,W,H);for(const p of pts){p.x+=p.vx;p.y+=p.vy;p.a+=.01;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;const dx=mouse.x-p.x,dy=mouse.y-p.y,dd=Math.hypot(dx,dy);if(dd<180*devicePixelRatio){p.x+=dx*.004;p.y+=dy*.004;}}
+for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){const a=pts[i],b=pts[j],d=Math.hypot(a.x-b.x,a.y-b.y);if(d<LD){cx.strokeStyle=`rgba(140,255,90,${.16*(1-d/LD)})`;cx.lineWidth=devicePixelRatio*.8;cx.beginPath();cx.moveTo(a.x,a.y);cx.lineTo(b.x,b.y);cx.stroke();}}
+for(const p of pts){cx.save();cx.translate(p.x,p.y);cx.rotate(p.a);cx.shadowBlur=12*devicePixelRatio;cx.shadowColor=`rgba(${p.c},.9)`;cx.fillStyle=`rgba(${p.c},.85)`;cx.beginPath();if(p.rod&&cx.roundRect){cx.roundRect(-p.r*2.2,-p.r*.8,p.r*4.4,p.r*1.6,p.r*.8);}else{cx.arc(0,0,p.r,0,Math.PI*2);}cx.fill();cx.restore();}
+if(!RM)requestAnimationFrame(loop);};loop();
+})();
+
+/* ===== v3 interactions ===== */
+(function(){
+const RM2=matchMedia('(prefers-reduced-motion: reduce)').matches;
+/* ticker */
+const TK=['Azotobacter','Azospirillum','Bacillus megaterium','Trichoderma','Pseudomonas fluorescens','Mycorrhizae','Lactobacillus plantarum','Pediococcus','Beauveria'],CR=['Wheat','Rice','Potato','Kinnow','Mango','Corn silage','Cotton','Sugarcane','Tomato','Dates'];
+let t='';for(let k=0;k<2;k++){for(let i=0;i<TK.length;i++){t+=`<span class="it">${TK[i]}</span><span>${CR[i%CR.length]}</span>`;}}
+const tt=document.getElementById('tt');if(tt)tt.innerHTML=t;
+/* hero scope microbes */
+const sb=document.getElementById('scopeBugs');if(sb){let h='';const C=['#8CFF5A','#3DDC84','#e9d8a6','#C9A15B','#96beff'];for(let i=0;i<46;i++){const a=Math.random()*Math.PI*2,r=Math.sqrt(Math.random())*160,x=230+r*Math.cos(a),y=230+r*Math.sin(a),c=C[i%5],rod=Math.random()>.45,tx=((Math.random()-.5)*40).toFixed(0)+'px',ty=((Math.random()-.5)*40).toFixed(0)+'px',rot=((Math.random()-.5)*120).toFixed(0)+'deg',d=(6+Math.random()*8).toFixed(1)+'s';const st=`--tx:${tx};--ty:${ty};--r:${rot};--d:${d};transform-box:fill-box;transform-origin:center`;
+h+=rod?`<rect class="sbug" x="${x.toFixed(0)}" y="${y.toFixed(0)}" width="${(10+Math.random()*10).toFixed(0)}" height="5" rx="2.5" fill="${c}" opacity=".85" style="${st}"/>`:`<circle class="sbug" cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="${(2+Math.random()*4).toFixed(1)}" fill="${c}" opacity=".8" style="${st}"/>`;}sb.innerHTML=h;}
+/* map dots + nodes */
+const dg=document.getElementById('dotgrid');if(dg){let h='';for(let y=12;y<380;y+=16)for(let x=12;x<900;x+=16){if(Math.random()>.55)h+=`<circle cx="${x}" cy="${y}" r="1.3" fill="rgba(160,255,140,.35)"/>`;}dg.innerHTML=h;}
+const mn=document.getElementById('mnodes');if(mn){const N=[[700,170,'Kasur · Lahore','#8CFF5A',1],[110,150,'United States','#C9A15B',0],[400,95,'European Union','#C9A15B',0],[626,222,'UAE','#e9d8a6',0],[552,252,'Saudi Arabia','#e9d8a6',0],[584,194,'Qatar','#e9d8a6',0],[670,260,'Oman','#e9d8a6',0]];
+const off={'UAE':[0,28],'Saudi Arabia':[-12,6],'Qatar':[-12,-8],'Oman':[14,8],'Kasur · Lahore':[14,-10],'United States':[0,-16],'European Union':[0,-16]};
+mn.innerHTML=N.map(n=>{const o=off[n[2]],anc=(n[2]==='Saudi Arabia'||n[2]==='Qatar')?'end':(n[2]==='United States'||n[2]==='European Union'||n[2]==='UAE')?'middle':'start';return `<circle class="mnode" cx="${n[0]}" cy="${n[1]}" r="${n[4]?7:5}" fill="none" stroke="${n[3]}"/><circle cx="${n[0]}" cy="${n[1]}" r="${n[4]?7:4.5}" fill="${n[3]}"/><text x="${n[0]+o[0]}" y="${n[1]+o[1]}" text-anchor="${anc}" fill="#EEF4E6" font-family="Inter" font-size="${n[4]?16:14}" font-weight="600">${n[2]}</text>`}).join('');}
+/* meters */
+const mo=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.querySelectorAll('[data-w]').forEach((b,i)=>setTimeout(()=>b.style.width=b.dataset.w+'%',i*90));mo.unobserve(e.target);}}),{threshold:.3});
+document.querySelectorAll('.meters').forEach(m=>mo.observe(m));
+/* spotlight */
+document.addEventListener('pointermove',e=>{const el=e.target.closest&&e.target.closest('.card,.fact,.funder,.sim,.builder,.term,.stream,.glass,details,.prod,.meters');if(!el)return;const r=el.getBoundingClientRect();el.style.setProperty('--mx',(e.clientX-r.left)+'px');el.style.setProperty('--my',(e.clientY-r.top)+'px');},{passive:true});
+/* tilt */
+if(!RM2&&matchMedia('(hover:hover)').matches){document.querySelectorAll('.stream,.lock .card,.agree .card,.teamgrid .card,.fund .card').forEach(el=>{el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect(),px=(e.clientX-r.left)/r.width-.5,py=(e.clientY-r.top)/r.height-.5;el.style.transform=`perspective(900px) rotateY(${px*7}deg) rotateX(${-py*7}deg) translateY(-4px)`;});el.addEventListener('pointerleave',()=>{el.style.transform='';});});}
+/* magnetic buttons */
+if(!RM2&&matchMedia('(hover:hover)').matches){document.querySelectorAll('.btn').forEach(b=>{b.addEventListener('pointermove',e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.15}px,${(e.clientY-r.top-r.height/2)*.25}px)`;});b.addEventListener('pointerleave',()=>b.style.transform='');});}
+})();
+</script>
+
+
+</body>
+</html>
