@@ -22,7 +22,7 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;overflow-x:clip}
-body{background:var(--bg);color:var(--cream);font-family:Inter,system-ui,sans-serif;line-height:1.65;font-size:17px;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--cream);font-family:Inter,system-ui,sans-serif;line-height:1.65;font-size:17px;overflow-x:clip;-webkit-font-smoothing:antialiased}
 a{color:var(--neon);text-decoration:none}
 a:hover{text-decoration:underline}
 img{max-width:100%;display:block}
@@ -455,9 +455,15 @@ h2 .hl,h2 .soil{text-shadow:0 0 34px rgba(140,255,90,.18)}
 .lockup.k3l img{height:96px;width:96px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px rgba(140,255,90,.5),0 0 34px rgba(140,255,90,.25)}
 .sidelogo{height:58px;width:auto;display:block;margin-bottom:14px}
 .sidelogo.round{width:58px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 1.5px rgba(201,161,91,.6)}
-.vidsec{overflow:hidden}
-.vidsec .bgvid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;opacity:.62;filter:saturate(1.1) contrast(1.05)}
-.vidsec .bgshade{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(7,17,12,.92) 0%,rgba(7,17,12,.55) 35%,rgba(7,17,12,.55) 70%,rgba(7,17,12,.95) 100%),radial-gradient(ellipse at 30% 30%,rgba(7,17,12,.2),rgba(7,17,12,.75))}
+.vidsec{overflow:clip}
+.vidsec .vidwrap{position:absolute;inset:0;z-index:0;pointer-events:none}
+.vidsec .vidstick{position:sticky;top:0;height:100vh;overflow:hidden}
+.vidsec .bgvid{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:1;filter:saturate(1.15) brightness(1.05)}
+.vidsec .bgshade{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(7,17,12,1) 0%,rgba(7,17,12,.15) 14%,rgba(7,17,12,0) 45%,rgba(7,17,12,.1) 75%,rgba(7,17,12,1) 100%),linear-gradient(90deg,rgba(7,17,12,.55) 0%,rgba(7,17,12,.15) 45%,rgba(7,17,12,0) 100%)}
+.vidsec .wrap p,.vidsec .wrap h2,.vidsec .wrap .eyebrow{text-shadow:0 2px 14px rgba(0,0,0,.85),0 0 2px rgba(0,0,0,.6)}
+.vidsec .wrap>.grid2>p,.vidsec .wrap>.grid2>div>p{background:rgba(7,17,12,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding:18px 20px;border-radius:14px;border:1px solid rgba(255,255,255,.06)}
+.vidsec .chips span{background:rgba(7,17,12,.6);backdrop-filter:blur(6px)}
+.vidsec .stages button:not(.on){background:rgba(7,17,12,.6);backdrop-filter:blur(6px)}
 .vidsec .wrap{position:relative;z-index:2}
 .vidtag{position:absolute;right:24px;top:24px;z-index:3;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.16em;color:#e9dfc8;padding:7px 12px;border-radius:99px;background:rgba(0,0,0,.4);border:1px solid rgba(201,161,91,.4);backdrop-filter:blur(8px)}
 .teamlead{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
@@ -602,7 +608,10 @@ h2 .hl,h2 .soil{text-shadow:0 0 34px rgba(140,255,90,.18)}
 </section>
 
 <!-- RANGE -->
-<section id="range" data-name="BIOSO range">
+<section id="range" class="vidsec" data-name="BIOSO range">
+  <div class="vidwrap" aria-hidden="true"><div class="vidstick"><video class="bgvid" autoplay muted loop playsinline preload="auto" poster="assets/earthworm-poster.jpg" aria-hidden="true"><source src="assets/earthworm-soil.webm" type="video/webm"><source src="assets/earthworm-soil.mp4" type="video/mp4"></video></div></div>
+  <div class="bgshade"></div>
+  <span class="vidtag">LIVE SOIL · EARTHWORMS, ROOTS &amp; MICROBES AT WORK</span>
   <div class="wrap">
     <span class="eyebrow rv">The BIOSO range</span>
     <h2 class="rv d1">Not one bottle. A complete living system, <span class="hl">seed to harvest.</span></h2>
@@ -633,10 +642,7 @@ h2 .hl,h2 .soil{text-shadow:0 0 34px rgba(140,255,90,.18)}
 </section>
 
 <!-- SCIENCE -->
-<section id="science" class="alt vidsec" data-name="Science">
-  <video class="bgvid" autoplay muted loop playsinline preload="auto" poster="assets/earthworm-poster.jpg" aria-hidden="true"><source src="assets/earthworm-soil.webm" type="video/webm"><source src="assets/earthworm-soil.mp4" type="video/mp4"></video>
-  <div class="bgshade"></div>
-  <span class="vidtag">LIVE SOIL · EARTHWORMS, ROOTS &amp; MICROBES AT WORK</span>
+<section id="science" class="alt" data-name="Science">
   <div class="wrap">
     <span class="eyebrow rv">The science</span>
     <h2 class="rv d1">Synthetic fertiliser feeds the plant once. <span class="hl">BIOSO rebuilds the system</span> that feeds it every season.</h2>
